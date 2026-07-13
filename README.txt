@@ -1,14 +1,14 @@
-FRANCE2026 — FICHIERS PRÊTS POUR GITHUB PAGES
+FRANCE 2026 — VERSION PWA
 
-Décompressez ce ZIP, puis déposez TOUS les fichiers à la racine du dépôt « voyage ».
-Le fichier index.html doit être visible directement dans le dépôt, et non à l’intérieur d’un sous-dossier.
+Déposez tous les fichiers et le dossier icons à la racine du dépôt GitHub « voyage ».
+Dans GitHub Pages, utilisez la branche main et le dossier /(root).
+Adresse : https://francevelo2026.github.io/voyage/
 
-Fichiers inclus :
-- index.html
-- styles.css
-- app.js
-- 404.html
-- .nojekyll
-
-Adresse prévue après publication :
-https://francevelo2026.github.io/voyage/
+Cette version contient :
+- journées 1 à 4 détaillées;
+- journées vélo provisoires du 5 au 27 septembre;
+- lien vers le parcours RideWithGPS;
+- réservations confirmées connues;
+- journal local;
+- installation sur l’écran d’accueil de l’iPhone;
+- cache hors connexion.

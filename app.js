@@ -1,7 +1,1 @@
-// Navigation robuste pour GitHub Pages : toutes les sections demeurent dans index.html.
-document.querySelectorAll('a[href^="#"]').forEach(link => {
-  link.addEventListener('click', () => {
-    const menu = document.querySelector('.nav');
-    if (menu) menu.scrollLeft = 0;
-  });
-});
+<!doctype html><meta charset="utf-8"><script>location.replace('./')</script><p>Redirection…</p>
