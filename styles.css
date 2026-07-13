@@ -22,3 +22,17 @@ label{display:block;font-weight:800;margin:16px 0 7px}input,textarea{width:100%;
 @media(max-width:780px){.hero{grid-template-columns:1fr;min-height:auto;padding:48px 24px 40px}.hero h1{font-size:clamp(2.8rem,13vw,4.8rem)}.hero-art{max-height:210px}.hero-art svg{max-width:270px}.grid,.facts{grid-template-columns:1fr}.top strong{font-size:.92rem}.top small{font-size:.7rem}}
 @media(min-width:781px){.bottom{max-width:520px;left:50%;right:auto;transform:translateX(-50%);border:1px solid var(--line);border-bottom:0;border-radius:18px 18px 0 0}}
 @media(max-width:420px){main{padding-left:14px;padding-right:14px}.hero{margin-left:-14px;margin-right:-14px}.bottom a{min-width:56px}.hero-art{display:none}}
+
+.hero-art img{
+  width:100%;
+  max-width:390px;
+  aspect-ratio:1/1;
+  object-fit:cover;
+  object-position:72% center;
+  border-radius:28px;
+  box-shadow:0 20px 45px rgba(0,0,0,.28);
+  border:1px solid rgba(255,255,255,.22);
+}
+@media(max-width:780px){
+  .hero-art img{max-width:300px}
+}

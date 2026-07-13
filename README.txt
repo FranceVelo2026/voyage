@@ -1,7 +1,5 @@
-FRANCE 2026 — VERSION CORRIGÉE
+FRANCE 2026 — MODIFICATION GPX ET NOUVELLE ILLUSTRATION
 
-Déposez TOUS les fichiers de ce dossier à la racine du dépôt GitHub « voyage ».
-Cette version corrige l’illustration manquante et la taille du titre sur ordinateur.
-Elle remplace les fichiers existants.
-
-Adresse : https://francevelo2026.github.io/voyage/
+Déposez tous les fichiers à la racine du dépôt GitHub « voyage ».
+Le bouton principal ouvre maintenant directement le parcours GPX dans RideWithGPS.
+L’ancienne icône de vélo a été remplacée par une illustration de cyclistes.
