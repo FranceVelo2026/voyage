@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="France2026" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Gare de Strasbourg vers 17 rue des Orfèvres</name>
+    <desc>Points de départ et d’arrivée. Utiliser le lien de trajet vélo dans le carnet pour la navigation routée.</desc>
+  </metadata>
+  <wpt lat="48.5847" lon="7.7342"><name>Gare de Strasbourg</name></wpt>
+  <wpt lat="48.5818" lon="7.7505"><name>Airbnb - 17 rue des Orfèvres</name></wpt>
+  <rte>
+    <name>Gare de Strasbourg vers Airbnb</name>
+    <rtept lat="48.5847" lon="7.7342"><name>Départ - Gare de Strasbourg</name></rtept>
+    <rtept lat="48.5818" lon="7.7505"><name>Arrivée - 17 rue des Orfèvres</name></rtept>
+  </rte>
+</gpx>
