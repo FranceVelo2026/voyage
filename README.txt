@@ -1,13 +1,13 @@
-FRANCE 2026 — VERSION DE PRODUCTION v1.2
+FRANCE 2026 — PRODUCTION v1.3 — JOUR 5
 
-Modifications :
-- le Jour 3 affiche maintenant « Ouvrir dans RideWithGPS »;
-- sur iPhone et iPad, ce bouton ouvre la feuille de partage iOS avec le fichier GPX;
-- il suffit alors de choisir l’application RideWithGPS;
-- Google Maps demeure disponible comme solution complémentaire;
-- le lien du grand parcours Strasbourg → Sète reste dans le menu « Parcours »;
-- cache de l’application actualisé.
+Jour 5 : Strasbourg → Obernai
+Distance calculée : 40.1 km
+Dénivelé positif approximatif : 370 m
+Temps de vélo estimé : 2 h 30
+Arrivée : centre d’Obernai, près de la Place du Marché
 
-Publication :
-Décompresser le ZIP, téléverser tous les fichiers à la racine du dépôt GitHub « voyage »,
-puis cliquer sur « Commit changes ».
+Le GPX commence au 17, rue des Orfèvres à Strasbourg.
+Trois liens Airbnb permettent de rechercher un logement 24 à 48 heures avant l’arrivée.
+Quand l’hébergement sera confirmé, le GPX pourra être prolongé jusqu’à l’adresse exacte.
+
+Décompresser puis téléverser tous les fichiers à la racine du dépôt GitHub voyage.
