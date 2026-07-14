@@ -46,3 +46,10 @@ label{display:block;font-weight:800;margin:16px 0 7px}input,textarea{width:100%;
 .route-item strong,.route-item small{display:block}
 .route-item strong{color:var(--green);font-size:1.05rem}
 .route-item small{color:var(--muted);margin-top:2px}
+
+.document-list{display:grid;gap:12px;margin:12px 0 24px}
+.document-item{display:flex;align-items:center;gap:14px;padding:17px 18px;background:white;border:1px solid var(--line);border-radius:17px;text-decoration:none;color:var(--ink);box-shadow:0 8px 24px #1a392710}
+.document-icon{font-size:1.55rem;flex:0 0 38px;text-align:center}
+.document-item strong,.document-item small{display:block}
+.document-item strong{color:var(--green);font-size:1.05rem}
+.document-item small{color:var(--muted);margin-top:2px}
