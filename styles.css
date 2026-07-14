@@ -38,3 +38,11 @@ label{display:block;font-weight:800;margin:16px 0 7px}input,textarea{width:100%;
 }
 
 .daylinks{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.daylinks .btn{margin:0}
+
+.route-list{display:grid;gap:12px;margin-top:20px}
+.route-item{display:flex;align-items:center;gap:14px;padding:17px 18px;background:white;border:1px solid var(--line);border-radius:17px;text-decoration:none;color:var(--ink);box-shadow:0 8px 24px #1a392710;transition:transform .18s ease,box-shadow .18s ease}
+.route-item:hover{transform:translateY(-2px);box-shadow:0 12px 30px #1a39271c}
+.route-icon{font-size:1.55rem;flex:0 0 38px;text-align:center}
+.route-item strong,.route-item small{display:block}
+.route-item strong{color:var(--green);font-size:1.05rem}
+.route-item small{color:var(--muted);margin-top:2px}
