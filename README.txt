@@ -1,14 +1,13 @@
-FRANCE 2026 — PRODUCTION v1.11
+FRANCE 2026 — PRODUCTION v1.12
 
 Modifications :
-- Historique des versions déplacé dans Informations utiles;
-- version actuelle affichée : v1.11;
-- descriptions brèves ajoutées aux activités de Lyon;
-- aucun horaire imposé;
-- bouton renommé « Demander à Alice de trouver un Airbnb »;
-- cache actualisé;
-- JavaScript vérifié.
+- nouvelle icône France 2026 avec vélo et vignoble;
+- Jour 5 : synthèse avec distance, dénivelé, pauses déjeuner possibles aux km 18 et 30, et arrivée;
+- liens vers les pâtisseries de Molsheim et Rosheim;
+- lien vers les restaurants et plats à emporter près du centre d’Obernai;
+- sections Hébergement, Pause déjeuner, Repas à proximité, Épicerie / marché,
+  À ne pas manquer et Conseil d’Alice;
+- version actuelle mise à jour à v1.12;
+- cache actualisé et JavaScript vérifié.
 
-Reporté à v1.12 :
-- nouvelle icône;
-- modèle complet enrichi des journées de vélo.
+Les heures d’ouverture doivent être vérifiées le jour même, car elles peuvent changer.
