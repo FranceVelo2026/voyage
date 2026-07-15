@@ -1,11 +1,14 @@
-FRANCE 2026 — VERSION DE PRODUCTION v1.9
+FRANCE 2026 — PRODUCTION v1.11
 
-Modification :
-- ajout au Jour 5 du bouton « Trouver un Airbnb avec Alice »;
-- ajout d’un rappel : utiliser ce bouton 24 à 48 heures avant l’arrivée;
-- le bouton ouvre ChatGPT pour effectuer la recherche avec Alice;
-- le Conseil d’Alice et le parcours RideWithGPS sont conservés;
-- cache actualisé et JavaScript vérifié.
+Modifications :
+- Historique des versions déplacé dans Informations utiles;
+- version actuelle affichée : v1.11;
+- descriptions brèves ajoutées aux activités de Lyon;
+- aucun horaire imposé;
+- bouton renommé « Demander à Alice de trouver un Airbnb »;
+- cache actualisé;
+- JavaScript vérifié.
 
-Publication :
-Décompresser puis téléverser tous les fichiers à la racine du dépôt GitHub « voyage ».
+Reporté à v1.12 :
+- nouvelle icône;
+- modèle complet enrichi des journées de vélo.
