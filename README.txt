@@ -1,10 +1,11 @@
-FRANCE 2026 — VERSION v2.0.2 — JOUR 6
+FRANCE 2026 — VERSION v2.0.3 — STRUCTURE
 
-Corrections :
-- activation du lien RideWithGPS Obernai → Colmar dans le Jour 6;
-- activation du même lien dans l’onglet Parcours;
-- suppression de la mention provisoire;
-- version actuelle : v2.0.2;
+Modifications :
+- descriptifs et durées ajoutés aux activités touristiques de Strasbourg;
+- liens « Ouvrir dans Google Maps » et « En savoir plus » sous chaque activité;
+- présentation de Lyon harmonisée selon le même modèle;
+- ajout d’un Conseil d’Alice à la journée de visite de Strasbourg;
+- historique et version actuelle mis à jour;
 - cache actualisé;
 - JavaScript vérifié.
 
