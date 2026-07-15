@@ -53,3 +53,6 @@ label{display:block;font-weight:800;margin:16px 0 7px}input,textarea{width:100%;
 .document-item strong,.document-item small{display:block}
 .document-item strong{color:var(--green);font-size:1.05rem}
 .document-item small{color:var(--muted);margin-top:2px}
+
+.route-item-disabled{opacity:.72;cursor:default}
+.route-item-disabled:hover{transform:none;box-shadow:0 8px 24px #1a392710}
