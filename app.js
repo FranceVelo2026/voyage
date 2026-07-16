@@ -48,7 +48,15 @@ const days=[
 ]},
 ...Array.from({length:20},(_,i)=>({n:i+8,date:`${i+8} septembre 2026`,title:i===19?'Arrivée à Sète':'Étape vélo à préciser',spirit:i===19?'Atteindre la Méditerranée et savourer le chemin parcouru.':'Cette étape sera complétée lorsque le découpage définitif sera confirmé.',pending:i!==19,facts:[['Statut',i===21?'Arrivée prévue':'À compléter'],['Parcours','Voir RideWithGPS']],stops:[['Préparation','Cette journée sera détaillée lorsque le découpage définitif des étapes sera confirmé.']]}))
 ];
-function route(){const id=(location.hash||'#accueil').slice(1).split('?')[0];document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));(document.getElementById(id)||document.getElementById('accueil')).classList.add('active');window.scrollTo(0,0)}
+function route(){
+  const raw=(location.hash||'#accueil').slice(1);
+  const [id,query='']=raw.split('?');
+  document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));
+  (document.getElementById(id)||document.getElementById('accueil')).classList.add('active');
+  const openDay=new URLSearchParams(query).get('open');
+  if(id==='day'&&openDay) renderDay(+openDay);
+  window.scrollTo(0,0);
+}
 function renderDays(){dayList.innerHTML=days.map(d=>`<div class="dayitem ${d.pending?'pending':''}" data-day="${d.n}"><div class="daynum">${d.n}</div><div><b>${d.title}</b><small>${d.date}${d.pending?' · à compléter':''}</small></div></div>`).join('');dayList.onclick=e=>{const x=e.target.closest('[data-day]');if(x){renderDay(+x.dataset.day);location.hash='day'}}}
 function renderDay(n){const d=days.find(x=>x.n===n);dayContent.innerHTML=`<p class="eyebrow">JOUR ${d.n}</p><h1>${d.title}</h1><p class="muted">${d.date}</p>${d.pending?'<div class="panel warning"><b>Étape provisoire</b><p>Le découpage, la distance et l’hébergement restent à confirmer.</p></div>':''}<div class="spirit"><small>L’ESPRIT DE LA JOURNÉE</small><strong>${d.spirit}</strong></div><div class="facts">${d.facts.map(f=>`<div class="fact"><small>${f[0]}</small><b>${f[1]}</b></div>`).join('')}</div><h2>Programme</h2><div class="timeline">${d.stops.map(s=>`<div class="stop"><b>${s[0]}</b><p>${s[1]}</p>${s[2]?`<div class="activity-links">${s[2].map(l=>`<a target="_blank" rel="noopener" href="${l[1]}">${l[0]}</a>`).join('')}</div>`:''}</div>`).join('')}</div>${d.actions?`<div class="daylinks">${d.actions.map(a=>`<button class="btn route-action" data-action="${a[1]}" data-file="${a[2]}">${a[0]}</button>`).join('')}</div>`:''}${d.links?`<div class="daylinks">${d.links.map(l=>`<a class="btn" target="_blank" rel="noopener" href="${l[1]}">${l[0]}</a>`).join('')}</div>`:''}${d.n>=8?'<a class="btn" target="_blank" rel="noopener" href="https://ridewithgps.com/routes/53578421?privacy_code=kkxuelJLVp05PTeBOPnZdw6jLSiA1Exd">Ouvrir RideWithGPS</a>':''}`}
 

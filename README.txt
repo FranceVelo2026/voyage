@@ -1,14 +1,18 @@
-FRANCE 2026 — VERSION v2.1 — JOUR 7
+FRANCE 2026 — MISE À JOUR IPAD v2.1.2
 
-Jour 7 révisé :
-- Colmar → Rouffach → Cernay → Wittelsheim → Richwiller → Brunstatt-Didenheim;
-- distance estimée du tracé produit : 69.4 km;
-- variante directe à partir de Cernay;
-- suppression du détour vers Ensisheim;
-- passage par Wittelsheim et Richwiller, avec secteur du canal;
-- pauses déjeuner : Rouffach et Cernay;
-- GPX inclus : jour-07-colmar-brunstatt-didenheim.gpx;
-- parcours ajouté dans l’onglet Parcours avec la mention « Lien RideWithGPS à venir »;
-- cache actualisé et JavaScript vérifié.
+Cette archive contient uniquement les 4 fichiers à téléverser :
+- app.js
+- index.html
+- sw.js
+- README.txt
 
-Après importation dans RideWithGPS, vérifier le tracé et transmettre le lien afin d’activer le parcours dans l’application.
+Correction :
+- l’Étape 3 ouvre directement le Jour 7;
+- navigation rendue plus fiable sur iPad;
+- cache actualisé.
+
+Dans GitHub :
+1. + > Upload files
+2. choisir les 4 fichiers de ce dossier
+3. Commit directly to main
+4. Commit changes
