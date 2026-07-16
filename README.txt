@@ -1,13 +1,14 @@
-FRANCE 2026 — VERSION v2.0.3 — STRUCTURE
+FRANCE 2026 — VERSION v2.1 — JOUR 7
 
-Modifications :
-- descriptifs et durées ajoutés aux activités touristiques de Strasbourg;
-- liens « Ouvrir dans Google Maps » et « En savoir plus » sous chaque activité;
-- présentation de Lyon harmonisée selon le même modèle;
-- ajout d’un Conseil d’Alice à la journée de visite de Strasbourg;
-- historique et version actuelle mis à jour;
-- cache actualisé;
-- JavaScript vérifié.
+Jour 7 révisé :
+- Colmar → Rouffach → Cernay → Wittelsheim → Richwiller → Brunstatt-Didenheim;
+- distance estimée du tracé produit : 69.4 km;
+- variante directe à partir de Cernay;
+- suppression du détour vers Ensisheim;
+- passage par Wittelsheim et Richwiller, avec secteur du canal;
+- pauses déjeuner : Rouffach et Cernay;
+- GPX inclus : jour-07-colmar-brunstatt-didenheim.gpx;
+- parcours ajouté dans l’onglet Parcours avec la mention « Lien RideWithGPS à venir »;
+- cache actualisé et JavaScript vérifié.
 
-Publication :
-Décompresser puis téléverser tous les fichiers à la racine du dépôt GitHub « voyage ».
+Après importation dans RideWithGPS, vérifier le tracé et transmettre le lien afin d’activer le parcours dans l’application.
