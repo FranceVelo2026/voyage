@@ -38,7 +38,7 @@ const days=[
 ['🍽️ Repas à proximité','Recherchez les restaurants, pizzerias et traiteurs proposant des plats à emporter près de Aspach-le-Bas.'],
 ['🛒 Épicerie / marché','Le Super U de Aspach-le-Bas est pratique pour le repas du soir et les provisions du lendemain.'],
 ['💡 Conseil d’Alice','La variante par Wittelsheim et Richwiller rend cette journée beaucoup plus équilibrée. Profitez du canal et évitez les détours urbains inutiles.']
-],links:[
+],actions:[['🚴 Ouvrir le GPX — Colmar → Aspach-le-Bas','share-gpx','jour-07-colmar-aspach-le-bas.gpx']],links:[
 ['🏡 Demander à Alice de trouver un Airbnb','https://chatgpt.com/'],
 ['🥐 Pâtisseries — Rouffach','https://www.google.com/maps/search/?api=1&query=p%C3%A2tisserie+boulangerie+Rouffach'],
 ['🥐 Pâtisseries — Cernay','https://www.google.com/maps/search/?api=1&query=p%C3%A2tisserie+boulangerie+Cernay+Haut-Rhin'],
@@ -61,7 +61,7 @@ async function shareGpx(fileName){
     if(navigator.canShare&&navigator.canShare({files:[file]})){
       await navigator.share({
         files:[file],
-        title:fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar via Maison Hauller':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
+        title:fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar via Maison Hauller':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
         text:'Ouvrir ce parcours dans RideWithGPS'
       });
     }else{
