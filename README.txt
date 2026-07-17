@@ -1,4 +1,4 @@
-FRANCE 2026 — VERSION v2.2.1
+FRANCE 2026 — VERSION v2.3.0
 
 Corrections :
 - Jour 7 : Colmar → Aspach-le-Bas;
@@ -8,4 +8,7 @@ Corrections :
 - cache de l’application actualisé.
 
 - lien Rouffach remplacé par la fiche officielle directe;
-- cache navigateur et application forcé à la version 2.2.1.
+- cache navigateur et application forcé à la version 2.3.0.
+
+- ajout des numéros de contrat d’assurance médicale dans Informations.
+- ajout de la procédure simplifiée de transfert du ZIP vers GitHub sur tablette.
