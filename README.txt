@@ -1,7 +1,7 @@
 FRANCE 2026 — VERSION v2.1 — JOUR 7
 
 Jour 7 révisé :
-- Colmar → Rouffach → Cernay → Wittelsheim → Richwiller → Brunstatt-Didenheim;
+- Colmar → Rouffach → Cernay → Wittelsheim → Richwiller → Aspach-le-Bas;
 - distance estimée du tracé produit : 69.4 km;
 - variante directe à partir de Cernay;
 - suppression du détour vers Ensisheim;
