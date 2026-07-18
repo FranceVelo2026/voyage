@@ -1,14 +1,13 @@
-FRANCE 2026 — VERSION v2.3.0
+FRANCE 2026 — VERSION v2.4.0
 
-Corrections :
+Modifications :
+- ajout de la réservation Aéronavette dans la section Réservations;
+- ajout du PDF aeronavette-reservation.pdf;
+- regroupement des numéros de téléphone et des numéros de contrat Manuvie dans une seule carte;
+- cache de l’application actualisé à la version 2.4.0.
+
+Éléments conservés :
 - Jour 7 : Colmar → Aspach-le-Bas;
-- ouverture RideWithGPS conservée avec le parcours 56170497;
-- remplacement du lien touristique périmé de Rouffach par le site officiel du Pays d’Eguisheim et de Rouffach;
+- ouverture RideWithGPS avec le parcours 56170497;
 - GPX inclus : jour-07-colmar-aspach-le-bas.gpx;
-- cache de l’application actualisé.
-
-- lien Rouffach remplacé par la fiche officielle directe;
-- cache navigateur et application forcé à la version 2.3.0.
-
-- ajout des numéros de contrat d’assurance médicale dans Informations.
-- ajout de la procédure simplifiée de transfert du ZIP vers GitHub sur tablette.
+- procédure simplifiée de transfert du ZIP vers GitHub sur tablette.

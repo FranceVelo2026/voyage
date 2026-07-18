@@ -77,7 +77,23 @@
 </div>
 </section>
 
-<section id="reservations" class="screen"><h1>Réservations et transports</h1><div class="panel"><b>Lyon — 1er et 2 septembre</b><p>56, rue Baraban, Lyon</p><a href="https://maps.google.com/?q=56+Rue+Baraban,+Lyon" target="_blank" rel="noopener">Ouvrir dans Google Maps</a></div><div class="panel"><b>Strasbourg — 3 et 4 septembre</b><p>17, rue des Orfèvres, 67000 Strasbourg</p><a href="https://maps.google.com/?q=17+Rue+des+Orfevres,+Strasbourg" target="_blank" rel="noopener">Ouvrir dans Google Maps</a></div><div class="panel"><b>Aéroport de Lyon → Part-Dieu</b><p>Rhônexpress.</p><a href="https://www.rhonexpress.fr/" target="_blank" rel="noopener">Billetterie Rhônexpress</a></div><div class="panel warning"><b>Train Lyon → Strasbourg</b><p>Horaire et réservation des deux vélos à confirmer. Ne pas considérer cette section comme une réservation.</p><a href="https://www.sncf-connect.com/" target="_blank" rel="noopener">SNCF Connect</a></div></section>
+<section id="reservations" class="screen">
+  <h1>Réservations et transports</h1>
+
+  <div class="panel">
+    <b>🚐 Aéronavette — aller-retour Montréal-Trudeau</b>
+    <p><strong>Dossier :</strong> 201622<br>
+    <strong>Aller :</strong> 31 août 2026 — Magog → Montréal-Trudeau, pour le vol TS574 vers Lyon à 23 h 25<br>
+    <strong>Retour :</strong> 29 septembre 2026 — arrivée du vol TS575 de Lyon à 16 h 15, puis Montréal-Trudeau → Magog<br>
+    <strong>Bagages surdimensionnés :</strong> 2 sacs à vélo</p>
+    <a href="aeronavette-reservation.pdf" target="_blank" rel="noopener">Voir la réservation Aéronavette</a>
+  </div>
+
+  <div class="panel"><b>Lyon — 1er et 2 septembre</b><p>56, rue Baraban, Lyon</p><a href="https://maps.google.com/?q=56+Rue+Baraban,+Lyon" target="_blank" rel="noopener">Ouvrir dans Google Maps</a></div>
+  <div class="panel"><b>Strasbourg — 3 et 4 septembre</b><p>17, rue des Orfèvres, 67000 Strasbourg</p><a href="https://maps.google.com/?q=17+Rue+des+Orfevres,+Strasbourg" target="_blank" rel="noopener">Ouvrir dans Google Maps</a></div>
+  <div class="panel"><b>Aéroport de Lyon → Part-Dieu</b><p>Rhônexpress.</p><a href="https://www.rhonexpress.fr/" target="_blank" rel="noopener">Billetterie Rhônexpress</a></div>
+  <div class="panel warning"><b>Train Lyon → Strasbourg</b><p>Horaire et réservation des deux vélos à confirmer. Ne pas considérer cette section comme une réservation.</p><a href="https://www.sncf-connect.com/" target="_blank" rel="noopener">SNCF Connect</a></div>
+</section>
 
 <section id="journal" class="screen"><h1>Journal de route</h1><p class="muted">Les notes restent enregistrées dans ce navigateur sur cet appareil.</p><label>Date ou titre<input id="noteTitle" placeholder="Ex. 8 septembre — une belle rencontre"></label><label>Votre note<textarea id="noteText" rows="8" placeholder="Écrivez ici..."></textarea></label><button class="btn" id="saveNote">Enregistrer la note</button><div id="notes"></div></section>
 
@@ -94,17 +110,14 @@
   </div>
 
   <div class="panel">
-    <b>Assistance médicale Manuvie</b>
-    <p>Canada et États-Unis : <a href="tel:+18888818010">1 888 881-8010</a><br>
+    <b>Assurance médicale Manuvie</b>
+    <p><strong>Numéros de téléphone</strong><br>
+    Canada et États-Unis : <a href="tel:+18888818010">1 888 881-8010</a><br>
     Ailleurs dans le monde, à frais virés : <a href="tel:+15199458346">1 519 945-8346</a></p>
-    <p class="note">Communiquer avec le centre d’assistance avant un traitement lorsque la situation le permet.</p>
-  </div>
-
-  <div class="panel">
-    <b>Numéros de contrat — assurance médicale</b>
-    <p><strong>Alain :</strong> CMX108213034<br>
-    <strong>Manon :</strong> CMX459519649</p>
-    <p class="note">Les contrats complets demeurent dans iCloud Drive ou dans l’application Fichiers.</p>
+    <p><strong>Numéros de contrat</strong><br>
+    Alain : CMX108213034<br>
+    Manon : CMX459519649</p>
+    <p class="note">Communiquer avec le centre d’assistance avant un traitement lorsque la situation le permet. Les contrats complets demeurent dans iCloud Drive ou dans l’application Fichiers.</p>
   </div>
 
   <div class="panel">
@@ -150,12 +163,13 @@
     <p><strong>v2.2.0</strong> — correction du lien touristique de Rouffach et maintien de l’ouverture RideWithGPS du Jour 7.</p>
     <p><strong>v2.2.1</strong> — lien direct vers la fiche officielle de Rouffach et actualisation forcée du cache.</p>
     <p><strong>v2.3.0</strong> — ajout des numéros d’assurance médicale et de la procédure simplifiée de mise à jour GitHub sur tablette.</p>
+    <p><strong>v2.4.0</strong> — ajout de la réservation Aéronavette et regroupement des renseignements d’assurance médicale.</p>
   </div>
-  <p><strong>Version actuelle : v2.3.0</strong></p>
+  <p><strong>Version actuelle : v2.4.0</strong></p>
 </section>
 </main>
 
 <nav class="bottom"><a href="#accueil">⌂<span>Accueil</span></a><a href="#jours">▦<span>Jours</span></a><a href="#itineraire">⌁<span>Parcours</span></a><a href="#journal">✎<span>Journal</span></a><a href="#infos">i<span>Infos</span></a></nav>
-<script src="app.js?v=2.3.0"></script>
+<script src="app.js?v=2.4.0"></script>
 </body>
 </html>
