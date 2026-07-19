@@ -11,3 +11,10 @@ Modifications :
 - ouverture RideWithGPS avec le parcours 56170497;
 - GPX inclus : jour-07-colmar-aspach-le-bas.gpx;
 - procédure simplifiée de transfert du ZIP vers GitHub sur tablette.
+
+
+VERSION v2.5.0
+- Jour 8 Aspach-le-Bas → L’Isle-sur-le-Doubs
+- GPX du Jour 8
+- Arrêts déjeuner possibles
+- Airbnb et logistique à l’arrivée

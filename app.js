@@ -46,7 +46,29 @@ const days=[
 ['🛒 Super U — Aspach-le-Bas','https://www.google.com/maps/search/?api=1&query=Super+U+Aspach-le-Bas'],
 ['📍 Aspach-le-Bas','https://www.google.com/maps/search/?api=1&query=Aspach-le-Bas']
 ]},
-...Array.from({length:20},(_,i)=>({n:i+8,date:`${i+8} septembre 2026`,title:i===19?'Arrivée à Sète':'Étape vélo à préciser',spirit:i===19?'Atteindre la Méditerranée et savourer le chemin parcouru.':'Cette étape sera complétée lorsque le découpage définitif sera confirmé.',pending:i!==19,facts:[['Statut',i===21?'Arrivée prévue':'À compléter'],['Parcours','Voir RideWithGPS']],stops:[['Préparation','Cette journée sera détaillée lorsque le découpage définitif des étapes sera confirmé.']]}))
+{n:8,date:'Mardi 8 septembre 2026',title:'Aspach-le-Bas → L’Isle-sur-le-Doubs',spirit:'Rejoindre la vallée du Doubs et terminer la journée dans une ville offrant tous les services utiles.',facts:[['Distance','74,0 km'],['Dénivelé positif','Environ 356 m'],['Déjeuner','Montreux-Château ou Bessoncourt'],['Ville étape','L’Isle-sur-le-Doubs']],stops:[
+['Départ — Aspach-le-Bas','Départ directement depuis l’hébergement.'],
+['🥐 Déjeuner — option 1','Montreux-Château, après environ 20 km. Une première option si vous avez faim après un peu plus d’une heure.'],
+['🥐 Déjeuner — option 2','Bessoncourt, après environ 30 km. Cette option correspond mieux à près de deux heures de vélo avant de manger.'],
+['🚴 Parcours','Le tracé rejoint progressivement la vallée du Doubs jusqu’à L’Isle-sur-le-Doubs.'],
+['🏡 Airbnb possibles — nuit du 8 au 9 septembre','Consulter les liens ci-dessous avec les dates déjà inscrites. Les prix affichés par Airbnb peuvent changer selon la disponibilité.'],
+['Les Bambous — L’Isle-sur-le-Doubs','Logement entier avec cuisine, près des commerces et de la véloroute. Vérifier le prix affiché pour le 8 septembre.'],
+['Le Doubs Cocon — Appenans','Tarif publié : 110 € la nuit en basse saison pour 1 à 4 personnes, plus 60 € de ménage et la taxe de séjour.'],
+['Autres Airbnb du secteur','Comparer les logements disponibles à L’Isle-sur-le-Doubs, Appenans et Longevelle-sur-Doubs.'],
+['🛒 Courses pour le souper','Lidl, ALDI et commerces du centre pour le repas du soir et les provisions du lendemain.'],
+['🍽️ Repas sans cuisiner','Restaurants, pizzerias et plats à emporter dans le centre.'],
+['💊 Services utiles','Pharmacies, gare TER, laverie et commerces accessibles dans la ville.']
+],actions:[['📥 Ouvrir le GPX dans RideWithGPS','share-gpx','jour-08-aspach-le-bas-lisle-sur-le-doubs.gpx']],links:[
+['🚴 Aspach-le-Bas → L’Isle-sur-le-Doubs — RideWithGPS','https://ridewithgps.com/routes/56198693'],
+['🏡 Airbnb — 8 au 9 septembre 2026','https://www.airbnb.fr/s/L%27Isle~sur~le~Doubs--France/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&date_picker_type=calendar&checkin=2026-09-08&checkout=2026-09-09&adults=2'],
+['🏡 Les Bambous — Airbnb','https://www.airbnb.fr/rooms/1332783179859754457?check_in=2026-09-08&check_out=2026-09-09&guests=2&adults=2'],
+['🏡 Le Doubs Cocon — tarifs','https://www.ledoubscocon.com/ta'],
+['🥐 Boulangeries — Montreux-Château','https://www.google.com/maps/search/?api=1&query=boulangerie+Montreux-Ch%C3%A2teau'],
+['🥐 Boulangeries — Bessoncourt','https://www.google.com/maps/search/?api=1&query=boulangerie+Bessoncourt'],
+['🛒 Épiceries — L’Isle-sur-le-Doubs','https://www.google.com/maps/search/?api=1&query=%C3%A9picerie+supermarch%C3%A9+L%27Isle-sur-le-Doubs'],
+['🥡 Repas à emporter','https://www.google.com/maps/search/?api=1&query=restaurant+%C3%A0+emporter+L%27Isle-sur-le-Doubs']
+]},
+...Array.from({length:19},(_,i)=>({n:i+9,date:`${i+9} septembre 2026`,title:i===18?'Arrivée à Sète':'Étape vélo à préciser',spirit:i===18?'Atteindre la Méditerranée et savourer le chemin parcouru.':'Cette étape sera complétée lorsque le découpage définitif sera confirmé.',pending:i!==18,facts:[['Statut',i===18?'Arrivée prévue':'À compléter'],['Parcours','Voir RideWithGPS']],stops:[['Préparation','Cette journée sera détaillée lorsque le découpage définitif des étapes sera confirmé.']]}))
 ];
 function route(){const id=(location.hash||'#accueil').slice(1).split('?')[0];document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));(document.getElementById(id)||document.getElementById('accueil')).classList.add('active');window.scrollTo(0,0)}
 function renderDays(){dayList.innerHTML=days.map(d=>`<div class="dayitem ${d.pending?'pending':''}" data-day="${d.n}"><div class="daynum">${d.n}</div><div><b>${d.title}</b><small>${d.date}${d.pending?' · à compléter':''}</small></div></div>`).join('');dayList.onclick=e=>{const x=e.target.closest('[data-day]');if(x){renderDay(+x.dataset.day);location.hash='day'}}}
@@ -61,7 +83,7 @@ async function shareGpx(fileName){
     if(navigator.canShare&&navigator.canShare({files:[file]})){
       await navigator.share({
         files:[file],
-        title:fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar via Maison Hauller':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
+        title:fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar via Maison Hauller':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
         text:'Ouvrir ce parcours dans RideWithGPS'
       });
     }else{
