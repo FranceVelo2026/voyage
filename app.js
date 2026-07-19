@@ -58,7 +58,7 @@ const days=[
 ['🛒 Courses pour le souper','Lidl, ALDI et commerces du centre pour le repas du soir et les provisions du lendemain.'],
 ['🍽️ Repas sans cuisiner','Restaurants, pizzerias et plats à emporter dans le centre.'],
 ['💊 Services utiles','Pharmacies, gare TER, laverie et commerces accessibles dans la ville.']
-],actions:[['📥 Ouvrir le GPX dans RideWithGPS','share-gpx','jour-08-aspach-le-bas-lisle-sur-le-doubs.gpx']],links:[
+],links:[
 ['🚴 Aspach-le-Bas → L’Isle-sur-le-Doubs — RideWithGPS','https://ridewithgps.com/routes/56198693?privacy_code=2fJjqL8UcjNTlJJaEjTVDudYrXj5NtFl'],
 ['🏡 Airbnb — 8 au 9 septembre 2026','https://www.airbnb.fr/s/L%27Isle~sur~le~Doubs--France/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&date_picker_type=calendar&checkin=2026-09-08&checkout=2026-09-09&adults=2'],
 ['🏡 Les Bambous — Airbnb','https://www.airbnb.fr/rooms/1332783179859754457?check_in=2026-09-08&check_out=2026-09-09&guests=2&adults=2'],
