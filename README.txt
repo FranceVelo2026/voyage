@@ -1,9 +1,10 @@
-FRANCE 2026 — VERSION v2.6.0
+FRANCE 2026 — VERSION v2.6.1
 
-Modifications :
-- ajout du lien Ride with GPS Gare de Strasbourg → Airbnb :
-  https://ridewithgps.com/routes/56200417?privacy_code=fHM29CvZ3sIqPWAitvokEywHJS8kqvcn
-- correction du lien Ride with GPS Strasbourg → Obernai :
-  https://ridewithgps.com/routes/56119326?privacy_code=gR1X6B7fXNiKgXeQr0U5Vr9FZRj7y1XW
-- suppression de l’historique complet des versions dans la section Info;
-- conservation uniquement de la version actuelle.
+Corrections :
+- historique des versions supprimé de la section Informations;
+- lien RideWithGPS Gare de Strasbourg → Airbnb ajouté au Jour 3;
+- GPX Gare de Strasbourg → Airbnb ajouté;
+- lien Jour 5 Strasbourg → Obernai vérifié;
+- lien Jour 6 Obernai → Colmar rétabli;
+- bouton RideWithGPS générique erroné supprimé;
+- lien propre au Jour 8 conservé.
