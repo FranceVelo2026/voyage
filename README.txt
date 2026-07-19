@@ -1,20 +1,9 @@
-FRANCE 2026 — VERSION v2.4.0
+FRANCE 2026 — VERSION v2.6.0
 
 Modifications :
-- ajout de la réservation Aéronavette dans la section Réservations;
-- ajout du PDF aeronavette-reservation.pdf;
-- regroupement des numéros de téléphone et des numéros de contrat Manuvie dans une seule carte;
-- cache de l’application actualisé à la version 2.4.0.
-
-Éléments conservés :
-- Jour 7 : Colmar → Aspach-le-Bas;
-- ouverture RideWithGPS avec le parcours 56170497;
-- GPX inclus : jour-07-colmar-aspach-le-bas.gpx;
-- procédure simplifiée de transfert du ZIP vers GitHub sur tablette.
-
-
-VERSION v2.5.0
-- Jour 8 Aspach-le-Bas → L’Isle-sur-le-Doubs
-- GPX du Jour 8
-- Arrêts déjeuner possibles
-- Airbnb et logistique à l’arrivée
+- ajout du lien Ride with GPS Gare de Strasbourg → Airbnb :
+  https://ridewithgps.com/routes/56200417?privacy_code=fHM29CvZ3sIqPWAitvokEywHJS8kqvcn
+- correction du lien Ride with GPS Strasbourg → Obernai :
+  https://ridewithgps.com/routes/56119326?privacy_code=gR1X6B7fXNiKgXeQr0U5Vr9FZRj7y1XW
+- suppression de l’historique complet des versions dans la section Info;
+- conservation uniquement de la version actuelle.
