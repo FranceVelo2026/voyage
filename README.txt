@@ -1,4 +1,4 @@
-France2026 v2.7.6 — Jour 10
+France2026 v2.7.7 — Jour 10
 
 Corrections :
 - dénivelé positif du Jour 10 corrigé à 413 m;
