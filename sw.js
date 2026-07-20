@@ -1,5 +1,5 @@
-const CACHE="france2026-v2-7-4";
-const ASSETS=["./","index.html","styles.css","app.js?v=2.7.4","manifest.webmanifest","icon-192.png","icon-512.png","cyclistes-hero.jpg","jour-07-colmar-aspach-le-bas.gpx","jour-08-aspach-le-bas-lisle-sur-le-doubs.gpx","jour-09-lisle-sur-le-doubs-besancon.gpx","aeronavette-reservation.pdf"];
+const CACHE="france2026-v2-7-5";
+const ASSETS=["./","index.html","styles.css","app.js?v=2.7.5","manifest.webmanifest","icon-192.png","icon-512.png","cyclistes-hero.jpg","jour-07-colmar-aspach-le-bas.gpx","jour-08-aspach-le-bas-lisle-sur-le-doubs.gpx","jour-09-lisle-sur-le-doubs-besancon.gpx","jour-10-besancon-dole.gpx","aeronavette-reservation.pdf"];
 self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)));self.skipWaiting();});
 self.addEventListener("activate",event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});
 self.addEventListener("fetch",event=>{

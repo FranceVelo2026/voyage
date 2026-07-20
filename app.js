@@ -87,7 +87,26 @@ const days=[
 ['🛒 Épiceries et marchés — Besançon','https://www.google.com/maps/search/?api=1&query=%C3%A9picerie+march%C3%A9+Besan%C3%A7on'],
 ['📍 Centre de Besançon','https://www.google.com/maps/search/?api=1&query=centre+historique+Besan%C3%A7on']
 ]},
-...Array.from({length:18},(_,i)=>({n:i+10,date:`${i+10} septembre 2026`,title:i===17?'Arrivée à Sète':'Étape vélo à préciser',spirit:i===17?'Atteindre la Méditerranée et savourer le chemin parcouru.':'Cette étape sera complétée lorsque le découpage définitif sera confirmé.',pending:i!==17,facts:[['Statut',i===17?'Arrivée prévue':'À compléter'],['Parcours','Voir RideWithGPS']],stops:[['Préparation','Cette journée sera détaillée lorsque le découpage définitif des étapes sera confirmé.']]}))
+{n:10,date:'Jeudi 10 septembre 2026',title:'Besançon → Dole',spirit:'Suivre la vallée du Doubs jusqu’à Dole en gardant un rythme confortable avant l’arrivée à Dijon le lendemain.',facts:[['Distance','58,1 km'],['Dénivelé positif','À confirmer dans RideWithGPS'],['Pause déjeuner possible','Saint-Vit ou Ranchot'],['Hébergement','Airbnb à réserver']],stops:[
+['Départ — Besançon','Le parcours commence à Besançon et suit progressivement la vallée du Doubs en direction de Dole.'],
+['🥐 Pause déjeuner — option 1','Saint-Vit offre une première possibilité de pause avec boulangeries et commerces. Vérifier les heures d’ouverture le jour même.'],
+['🥐 Pause déjeuner — option 2','Ranchot constitue une option plus tardive, pratique si vous préférez rouler plus longtemps avant de manger.'],
+['🚴 Vallée du Doubs','L’étape suit en grande partie le corridor du Doubs, sur un tracé favorable au cyclotourisme.'],
+['🏡 Hébergement','L’Airbnb n’est pas encore réservé. Privilégier un logement près du centre ou du parcours, avec un endroit sécuritaire pour les deux vélos.'],
+['🍽️ Repas à proximité','Dole offre des restaurants, traiteurs et commerces pour un repas sur place ou à emporter.'],
+['🛒 Épicerie / marché','Le centre de Dole et ses environs offrent plusieurs commerces alimentaires pour le souper et les provisions du lendemain.'],
+['⭐ À ne pas manquer','Le canal des Tanneurs et le centre historique de Dole sont les principaux attraits de la fin d’étape.'],
+['💡 Conseil d’Alice','Une fois l’hébergement réservé, ajuster au besoin les derniers kilomètres du GPX pour terminer directement à l’Airbnb.']
+],actions:[['📥 Ouvrir le GPX du Jour 10','share-gpx','jour-10-besancon-dole.gpx']],links:[
+['🚴 Besançon → Dole — RideWithGPS','https://ridewithgps.com/routes/56222242'],
+['🏡 Demander à Alice de trouver un Airbnb','https://chatgpt.com/'],
+['🥐 Boulangeries — Saint-Vit','https://www.google.com/maps/search/?api=1&query=boulangerie+Saint-Vit'],
+['🥐 Boulangeries — Ranchot','https://www.google.com/maps/search/?api=1&query=boulangerie+Ranchot'],
+['🥡 Repas à emporter — Dole','https://www.google.com/maps/search/?api=1&query=restaurant+%C3%A0+emporter+Dole'],
+['🛒 Épiceries et marchés — Dole','https://www.google.com/maps/search/?api=1&query=%C3%A9picerie+march%C3%A9+Dole'],
+['📍 Centre historique de Dole','https://www.google.com/maps/search/?api=1&query=centre+historique+Dole']
+]},
+...Array.from({length:17},(_,i)=>({n:i+11,date:`${i+11} septembre 2026`,title:i===16?'Arrivée à Sète':'Étape vélo à préciser',spirit:i===16?'Atteindre la Méditerranée et savourer le chemin parcouru.':'Cette étape sera complétée lorsque le découpage définitif sera confirmé.',pending:i!==16,facts:[['Statut',i===16?'Arrivée prévue':'À compléter'],['Parcours','Voir RideWithGPS']],stops:[['Préparation','Cette journée sera détaillée lorsque le découpage définitif des étapes sera confirmé.']]}))
 ];
 function route(){const id=(location.hash||'#accueil').slice(1).split('?')[0];document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));(document.getElementById(id)||document.getElementById('accueil')).classList.add('active');window.scrollTo(0,0)}
 function renderDays(){dayList.innerHTML=days.map(d=>`<div class="dayitem ${d.pending?'pending':''}" data-day="${d.n}"><div class="daynum">${d.n}</div><div><b>${d.title}</b><small>${d.date}${d.pending?' · à compléter':''}</small></div></div>`).join('');dayList.onclick=e=>{const x=e.target.closest('[data-day]');if(x){renderDay(+x.dataset.day);location.hash='day'}}}
@@ -102,7 +121,7 @@ async function shareGpx(fileName){
     if(navigator.canShare&&navigator.canShare({files:[file]})){
       await navigator.share({
         files:[file],
-        title:fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar via Maison Hauller':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
+        title:fileName.includes('jour-10')?'Jour 10 — Besançon → Dole':fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar via Maison Hauller':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
         text:'Ouvrir ce parcours dans RideWithGPS'
       });
     }else{
