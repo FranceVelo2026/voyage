@@ -1,6 +1,3 @@
-France2026 v2.7.7 — Jour 10
-
-Corrections :
-- dénivelé positif du Jour 10 corrigé à 413 m;
-- lien RideWithGPS du Jour 10 vérifié et renforcé pour l’ouverture depuis l’application iPad;
-- cache de l’application renouvelé pour forcer l’affichage de la correction.
+France2026 v2.7.8 — Jour 10
+Correction : le bouton principal du Jour 10 ouvre directement le parcours RideWithGPS, comme le lien fonctionnel de la section Parcours.
+Dénivelé positif : 413 m.

@@ -97,8 +97,8 @@ const days=[
 ['🛒 Épicerie / marché','Le centre de Dole et ses environs offrent plusieurs commerces alimentaires pour le souper et les provisions du lendemain.'],
 ['⭐ À ne pas manquer','Le canal des Tanneurs et le centre historique de Dole sont les principaux attraits de la fin d’étape.'],
 ['💡 Conseil d’Alice','Une fois l’hébergement réservé, ajuster au besoin les derniers kilomètres du GPX pour terminer directement à l’Airbnb.']
-],actions:[['📥 Ouvrir le GPX du Jour 10','share-gpx','jour-10-besancon-dole.gpx']],links:[
-['🚴 Besançon → Dole — RideWithGPS','https://ridewithgps.com/routes/56222242'],
+],links:[
+['🚴 Ouvrir le parcours du Jour 10 dans RideWithGPS','https://ridewithgps.com/routes/56222242'],
 ['🏡 Demander à Alice de trouver un Airbnb','https://chatgpt.com/'],
 ['🥐 Boulangeries — Saint-Vit','https://www.google.com/maps/search/?api=1&query=boulangerie+Saint-Vit'],
 ['🥐 Boulangeries — Ranchot','https://www.google.com/maps/search/?api=1&query=boulangerie+Ranchot'],
@@ -146,4 +146,4 @@ document.addEventListener('click',e=>{
 
 function loadNotes(){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');notes.innerHTML=a.map((n,i)=>`<div class="noteitem"><button data-del="${i}">Supprimer</button><b>${escapeHtml(n.t)}</b><p>${escapeHtml(n.x).replace(/\n/g,'<br>')}</p></div>`).join('')||'<p class="muted">Aucune note enregistrée.</p>'}
 function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=2.7.7').then(r=>r.update());
+saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=2.7.8').then(r=>r.update());
