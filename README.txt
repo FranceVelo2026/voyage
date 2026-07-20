@@ -1,3 +1,3 @@
-France2026 v2.7.8 — Jour 10
-Correction : le bouton principal du Jour 10 ouvre directement le parcours RideWithGPS, comme le lien fonctionnel de la section Parcours.
-Dénivelé positif : 413 m.
+France2026 v2.7.9 — Jour 11
+Ajout du Jour 11 Dole → Dijon, du GPX et du lien RideWithGPS.
+Ajout discret du numéro de version sur la page Accueil.

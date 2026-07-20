@@ -106,7 +106,25 @@ const days=[
 ['🛒 Épiceries et marchés — Dole','https://www.google.com/maps/search/?api=1&query=%C3%A9picerie+march%C3%A9+Dole'],
 ['📍 Centre historique de Dole','https://www.google.com/maps/search/?api=1&query=centre+historique+Dole']
 ]},
-...Array.from({length:17},(_,i)=>({n:i+11,date:`${i+11} septembre 2026`,title:i===16?'Arrivée à Sète':'Étape vélo à préciser',spirit:i===16?'Atteindre la Méditerranée et savourer le chemin parcouru.':'Cette étape sera complétée lorsque le découpage définitif sera confirmé.',pending:i!==16,facts:[['Statut',i===16?'Arrivée prévue':'À compléter'],['Parcours','Voir RideWithGPS']],stops:[['Préparation','Cette journée sera détaillée lorsque le découpage définitif des étapes sera confirmé.']]}))
+{n:11,date:'Vendredi 11 septembre 2026',title:'Dole → Dijon',spirit:'Rejoindre Dijon à un rythme confortable, puis s’installer pour deux nuits et profiter pleinement de la ville.',facts:[['Distance','56,3 km'],['Dénivelé positif','369 m'],['Pause déjeuner possible','Auxonne ou Genlis'],['Hébergement','Airbnb à réserver — 2 nuits']],stops:[
+['Départ — Dole','Le parcours commence à Dole et prend la direction de Dijon.'],
+['🥐 Pause déjeuner — option 1','Auxonne constitue une bonne première option pour une pause, avec des boulangeries et commerces. Vérifier les heures d’ouverture le jour même.'],
+['🥐 Pause déjeuner — option 2','Genlis offre une possibilité plus tardive si vous préférez rouler davantage avant de manger.'],
+['🏡 Arrivée et hébergement','Prévoir deux nuits à Dijon. Privilégier un logement central ou facile d’accès depuis le parcours, avec un endroit sécuritaire pour les deux vélos.'],
+['🍽️ Repas à proximité','Dijon offre de nombreux restaurants, traiteurs et commerces pour un repas sur place ou à emporter.'],
+['🛒 Épicerie / marché','Le centre-ville compte plusieurs commerces alimentaires pour le souper et les provisions.'],
+['⭐ À ne pas manquer','La première soirée peut servir à découvrir tranquillement le centre historique avant la journée complète du lendemain.'],
+['💡 Conseil d’Alice','Une fois l’Airbnb réservé, ajuster au besoin les derniers kilomètres du GPX afin de terminer directement à l’hébergement.']
+],links:[
+['🚴 Ouvrir le parcours du Jour 11 dans RideWithGPS','https://ridewithgps.com/routes/56222465'],
+['🏡 Demander à Alice de trouver un Airbnb pour deux nuits','https://chatgpt.com/'],
+['🥐 Boulangeries — Auxonne','https://www.google.com/maps/search/?api=1&query=boulangerie+Auxonne'],
+['🥐 Boulangeries — Genlis','https://www.google.com/maps/search/?api=1&query=boulangerie+Genlis'],
+['🥡 Repas à emporter — Dijon','https://www.google.com/maps/search/?api=1&query=restaurant+%C3%A0+emporter+Dijon'],
+['🛒 Épiceries et marchés — Dijon','https://www.google.com/maps/search/?api=1&query=%C3%A9picerie+march%C3%A9+Dijon'],
+['📍 Centre historique de Dijon','https://www.google.com/maps/search/?api=1&query=centre+historique+Dijon']
+]},
+...Array.from({length:16},(_,i)=>({n:i+12,date:`${i+12} septembre 2026`,title:i===15?'Arrivée à Sète':'Étape vélo à préciser',spirit:i===15?'Atteindre la Méditerranée et savourer le chemin parcouru.':'Cette étape sera complétée lorsque le découpage définitif sera confirmé.',pending:i!==15,facts:[['Statut',i===15?'Arrivée prévue':'À compléter'],['Parcours','Voir RideWithGPS']],stops:[['Préparation','Cette journée sera détaillée lorsque le découpage définitif des étapes sera confirmé.']]}))
 ];
 function route(){const id=(location.hash||'#accueil').slice(1).split('?')[0];document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));(document.getElementById(id)||document.getElementById('accueil')).classList.add('active');window.scrollTo(0,0)}
 function renderDays(){dayList.innerHTML=days.map(d=>`<div class="dayitem ${d.pending?'pending':''}" data-day="${d.n}"><div class="daynum">${d.n}</div><div><b>${d.title}</b><small>${d.date}${d.pending?' · à compléter':''}</small></div></div>`).join('');dayList.onclick=e=>{const x=e.target.closest('[data-day]');if(x){renderDay(+x.dataset.day);location.hash='day'}}}
@@ -121,7 +139,7 @@ async function shareGpx(fileName){
     if(navigator.canShare&&navigator.canShare({files:[file]})){
       await navigator.share({
         files:[file],
-        title:fileName.includes('jour-10')?'Jour 10 — Besançon → Dole':fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar via Maison Hauller':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
+        title:fileName.includes('jour-11')?'Jour 11 — Dole → Dijon':fileName.includes('jour-10')?'Jour 10 — Besançon → Dole':fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar via Maison Hauller':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
         text:'Ouvrir ce parcours dans RideWithGPS'
       });
     }else{
@@ -146,4 +164,4 @@ document.addEventListener('click',e=>{
 
 function loadNotes(){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');notes.innerHTML=a.map((n,i)=>`<div class="noteitem"><button data-del="${i}">Supprimer</button><b>${escapeHtml(n.t)}</b><p>${escapeHtml(n.x).replace(/\n/g,'<br>')}</p></div>`).join('')||'<p class="muted">Aucune note enregistrée.</p>'}
 function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=2.7.8').then(r=>r.update());
+saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=2.7.9').then(r=>r.update());
