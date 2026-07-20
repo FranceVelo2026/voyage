@@ -68,7 +68,26 @@ const days=[
 ['🛒 Épiceries — L’Isle-sur-le-Doubs','https://www.google.com/maps/search/?api=1&query=%C3%A9picerie+supermarch%C3%A9+L%27Isle-sur-le-Doubs'],
 ['🥡 Repas à emporter','https://www.google.com/maps/search/?api=1&query=restaurant+%C3%A0+emporter+L%27Isle-sur-le-Doubs']
 ]},
-...Array.from({length:19},(_,i)=>({n:i+9,date:`${i+9} septembre 2026`,title:i===18?'Arrivée à Sète':'Étape vélo à préciser',spirit:i===18?'Atteindre la Méditerranée et savourer le chemin parcouru.':'Cette étape sera complétée lorsque le découpage définitif sera confirmé.',pending:i!==18,facts:[['Statut',i===18?'Arrivée prévue':'À compléter'],['Parcours','Voir RideWithGPS']],stops:[['Préparation','Cette journée sera détaillée lorsque le découpage définitif des étapes sera confirmé.']]}))
+{n:9,date:'Mercredi 9 septembre 2026',title:"L’Isle-sur-le-Doubs → Besançon",spirit:'Suivre la vallée du Doubs jusqu’à Besançon et profiter d’une arrivée progressive au cœur de la ville.',facts:[['Distance','68,3 km'],['Dénivelé positif','À confirmer dans RideWithGPS'],['Pause déjeuner possible','Clerval ou Baume-les-Dames'],['Hébergement','Airbnb à réserver']],stops:[
+['Départ — L’Isle-sur-le-Doubs','Le GPX commence à L’Isle-sur-le-Doubs et suit la vallée en direction de Besançon.'],
+['🥐 Pause déjeuner — option 1','Clerval offre une première possibilité de pause. Vérifiez les boulangeries et leurs heures d’ouverture le jour même.'],
+['🥐 Pause déjeuner — option 2','Baume-les-Dames constitue une excellente pause plus tardive, avec davantage de commerces et de services.'],
+['🚴 Vallée du Doubs','La majeure partie de l’étape suit le corridor du Doubs, avec un parcours favorable au cyclotourisme.'],
+['🏡 Hébergement','L’Airbnb n’est pas encore réservé. Privilégier un logement permettant de ranger les deux vélos en sécurité et situé près du centre ou du parcours.'],
+['🍽️ Repas à proximité','Besançon offre de nombreux restaurants, traiteurs et commerces pour un repas à emporter.'],
+['🛒 Épicerie / marché','Rechercher une épicerie ou un commerce alimentaire près de l’hébergement une fois celui-ci réservé.'],
+['⭐ À ne pas manquer','L’arrivée le long du Doubs et le centre historique de Besançon sont les principaux attraits de la fin d’étape.'],
+['💡 Conseil d’Alice','Attendez d’avoir choisi l’hébergement avant de modifier la fin du GPX : vous pourrez alors faire terminer le trajet directement à l’Airbnb.']
+],actions:[['📥 Ouvrir le GPX du Jour 9','share-gpx','jour-09-lisle-sur-le-doubs-besancon.gpx']],links:[
+['🚴 L’Isle-sur-le-Doubs → Besançon — RideWithGPS','https://ridewithgps.com/routes/56206517'],
+['🏡 Demander à Alice de trouver un Airbnb','https://chatgpt.com/'],
+['🥐 Boulangeries — Clerval','https://www.google.com/maps/search/?api=1&query=boulangerie+Clerval'],
+['🥐 Boulangeries — Baume-les-Dames','https://www.google.com/maps/search/?api=1&query=boulangerie+Baume-les-Dames'],
+['🥡 Repas à emporter — Besançon','https://www.google.com/maps/search/?api=1&query=restaurant+%C3%A0+emporter+Besan%C3%A7on'],
+['🛒 Épiceries et marchés — Besançon','https://www.google.com/maps/search/?api=1&query=%C3%A9picerie+march%C3%A9+Besan%C3%A7on'],
+['📍 Centre de Besançon','https://www.google.com/maps/search/?api=1&query=centre+historique+Besan%C3%A7on']
+]},
+...Array.from({length:18},(_,i)=>({n:i+10,date:`${i+10} septembre 2026`,title:i===17?'Arrivée à Sète':'Étape vélo à préciser',spirit:i===17?'Atteindre la Méditerranée et savourer le chemin parcouru.':'Cette étape sera complétée lorsque le découpage définitif sera confirmé.',pending:i!==17,facts:[['Statut',i===17?'Arrivée prévue':'À compléter'],['Parcours','Voir RideWithGPS']],stops:[['Préparation','Cette journée sera détaillée lorsque le découpage définitif des étapes sera confirmé.']]}))
 ];
 function route(){const id=(location.hash||'#accueil').slice(1).split('?')[0];document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));(document.getElementById(id)||document.getElementById('accueil')).classList.add('active');window.scrollTo(0,0)}
 function renderDays(){dayList.innerHTML=days.map(d=>`<div class="dayitem ${d.pending?'pending':''}" data-day="${d.n}"><div class="daynum">${d.n}</div><div><b>${d.title}</b><small>${d.date}${d.pending?' · à compléter':''}</small></div></div>`).join('');dayList.onclick=e=>{const x=e.target.closest('[data-day]');if(x){renderDay(+x.dataset.day);location.hash='day'}}}
@@ -83,7 +102,7 @@ async function shareGpx(fileName){
     if(navigator.canShare&&navigator.canShare({files:[file]})){
       await navigator.share({
         files:[file],
-        title:fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar via Maison Hauller':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
+        title:fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar via Maison Hauller':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
         text:'Ouvrir ce parcours dans RideWithGPS'
       });
     }else{
@@ -108,4 +127,4 @@ document.addEventListener('click',e=>{
 
 function loadNotes(){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');notes.innerHTML=a.map((n,i)=>`<div class="noteitem"><button data-del="${i}">Supprimer</button><b>${escapeHtml(n.t)}</b><p>${escapeHtml(n.x).replace(/\n/g,'<br>')}</p></div>`).join('')||'<p class="muted">Aucune note enregistrée.</p>'}
 function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=2.4.0').then(r=>r.update());
+saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=2.7.0').then(r=>r.update());
