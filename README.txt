@@ -1,4 +1,4 @@
-FRANCE 2026 — VERSION v2.7.3
+FRANCE 2026 — VERSION v2.7.4
 
 Correction du Jour 9 :
 - le dénivelé affiché dans la fiche principale du Jour 9 est maintenant exactement de 471 m;
