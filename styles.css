@@ -61,4 +61,6 @@ label{display:block;font-weight:800;margin:16px 0 7px}input,textarea{width:100%;
 .activity-links a{display:inline-flex;align-items:center;min-height:38px;padding:8px 11px;border:1px solid var(--line);border-radius:11px;background:#fff;text-decoration:none;color:var(--green);font-weight:700;font-size:.88rem}
 .activity-links a:hover{box-shadow:0 5px 14px #1a392714}
 
-.home-version{position:absolute;right:18px;bottom:10px;color:rgba(255,255,255,.68);font-size:.7rem;font-weight:600;letter-spacing:.04em}
+.home-version{position:absolute;right:18px;bottom:12px;z-index:6;color:rgba(255,255,255,.92);background:rgba(18,57,47,.42);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:3px 8px;font-size:.72rem;font-weight:700;letter-spacing:.04em;line-height:1.2;white-space:nowrap}
+
+@media(min-width:781px){.home-version{right:22px;bottom:14px;font-size:.76rem;padding:4px 9px}}
