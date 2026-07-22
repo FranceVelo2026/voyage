@@ -78,7 +78,7 @@ const days=[
 ['🛒 Épicerie / marché','Rechercher une épicerie ou un commerce alimentaire près de l’hébergement une fois celui-ci réservé.'],
 ['⭐ À ne pas manquer','L’arrivée le long du Doubs et le centre historique de Besançon sont les principaux attraits de la fin d’étape.'],
 ['💡 Conseil d’Alice','Attendez d’avoir choisi l’hébergement avant de modifier la fin du GPX : vous pourrez alors faire terminer le trajet directement à l’Airbnb.']
-],actions:[['📥 Ouvrir le GPX du Jour 9','share-gpx','jour-09-lisle-sur-le-doubs-besancon.gpx']],links:[
+],links:[
 ['GPX - L’Isle-sur-le-Doubs @ Besançon','https://ridewithgps.com/routes/56206517'],
 ['🏡 Demander à Alice de trouver un Airbnb','https://chatgpt.com/'],
 ['🥐 Boulangeries — Clerval','https://www.google.com/maps/search/?api=1&query=boulangerie+Clerval'],
