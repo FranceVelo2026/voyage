@@ -1,6 +1,5 @@
-France2026 v2.8.7 — Jour 12
-Dole → Marsannay-la-Côte
-GPX du Jour 11 remplacé dans la journée et dans l’onglet Parcours.
-Hébergement à Marsannay-la-Côte : confirmation en attente.
+France2026 v2.8.8 — Jour 13
 
-Modification v2.8.7 : ajout du transport Marsannay-la-Côte → Dijon (vélo ou Uber) au début du Jour 12.
+Mise à jour du Jour 13 : boucle à vélo sans bagages dans les vignobles de la Côte de Nuits.
+Parcours RideWithGPS 56269077 — 25,3 km — 231 m de dénivelé positif.
+Visites possibles au Domaine René Leclerc et au Domaine des Beaumont, sans horaire fixe; décision sur place de visiter un seul domaine ou les deux.
