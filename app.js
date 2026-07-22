@@ -169,7 +169,7 @@ const days=[
 ['Pause repas en route','Selon l’heure et l’appétit, acheter un sandwich ou un repas à emporter à Chalon-sur-Saône, ou poursuivre jusqu’à Tournus pour dîner après l’arrivée.'],
 ['Arrivée — Tournus','Ranger les vélos puis profiter du centre ancien. Tournus offre des restaurants, des commerces et plusieurs possibilités de ravitaillement pour le souper et le lendemain.']
 ],links:[
-['GPX - Chagny → Tournus','jour-15-chagny-tournus.gpx'],
+['GPX - Chagny → Tournus','https://ridewithgps.com/routes/56273151'],
 ['🥐 Pâtisseries — Chalon-sur-Saône','https://www.google.com/maps/search/?api=1&query=patisserie+boulangerie+Chalon-sur-Saone'],
 ['🍽️ Restaurants — Tournus','https://www.google.com/maps/search/?api=1&query=restaurants+Tournus'],
 ['🛒 Épiceries — Tournus','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Tournus']

@@ -1,12 +1,81 @@
-<?xml version='1.0' encoding='utf-8'?>
-<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="http://ridewithgps.com/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="http://ridewithgps.com/" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd">
   <metadata>
-    <name>Jour 15 - Chagny @ ???</name>
+    <name>Jour 15 - Chagny @ Tournus</name>
+    <link href="https://ridewithgps.com/routes/56273151">
+      <text>Jour 15 - Chagny @ Tournus</text>
+    </link>
     <time>2026-07-22T15:15:31Z</time>
   </metadata>
   <trk>
     <name>Jour 15 - Chagny @ Tournus</name>
     <trkseg>
+      <trkpt lat="46.90862" lon="4.74871">
+        <ele>209.8</ele>
+      </trkpt>
+      <trkpt lat="46.90861" lon="4.7486">
+        <ele>209.8</ele>
+      </trkpt>
+      <trkpt lat="46.90861" lon="4.74853">
+        <ele>209.7</ele>
+      </trkpt>
+      <trkpt lat="46.90864" lon="4.74834">
+        <ele>209.5</ele>
+      </trkpt>
+      <trkpt lat="46.90877" lon="4.74775">
+        <ele>208.9</ele>
+      </trkpt>
+      <trkpt lat="46.90885" lon="4.74751">
+        <ele>208.5</ele>
+      </trkpt>
+      <trkpt lat="46.90866" lon="4.7473">
+        <ele>210.0</ele>
+      </trkpt>
+      <trkpt lat="46.90836" lon="4.74693">
+        <ele>212.9</ele>
+      </trkpt>
+      <trkpt lat="46.90829" lon="4.74687">
+        <ele>213.6</ele>
+      </trkpt>
+      <trkpt lat="46.90825" lon="4.74686">
+        <ele>214.0</ele>
+      </trkpt>
+      <trkpt lat="46.90821" lon="4.74687">
+        <ele>214.3</ele>
+      </trkpt>
+      <trkpt lat="46.90816" lon="4.7469">
+        <ele>214.5</ele>
+      </trkpt>
+      <trkpt lat="46.9075" lon="4.74766">
+        <ele>216.2</ele>
+      </trkpt>
+      <trkpt lat="46.90741" lon="4.74773">
+        <ele>216.2</ele>
+      </trkpt>
+      <trkpt lat="46.90734" lon="4.74776">
+        <ele>216.2</ele>
+      </trkpt>
+      <trkpt lat="46.90722" lon="4.74776">
+        <ele>216.7</ele>
+      </trkpt>
+      <trkpt lat="46.90717" lon="4.74774">
+        <ele>216.9</ele>
+      </trkpt>
+      <trkpt lat="46.90712" lon="4.7477">
+        <ele>217.3</ele>
+      </trkpt>
+      <trkpt lat="46.90709" lon="4.74765">
+        <ele>217.7</ele>
+      </trkpt>
+      <trkpt lat="46.90695" lon="4.74701">
+        <ele>219.8</ele>
+      </trkpt>
+      <trkpt lat="46.90686" lon="4.74663">
+        <ele>220.2</ele>
+      </trkpt>
+      <trkpt lat="46.90678" lon="4.74647">
+        <ele>220.2</ele>
+      </trkpt>
       <trkpt lat="46.90678" lon="4.74647">
         <ele>223.1</ele>
       </trkpt>
@@ -4693,24 +4762,15 @@
       <trkpt lat="46.56437" lon="4.91192">
         <ele>178.1</ele>
       </trkpt>
-      <trkpt lat="46.56399" lon="4.91211">
+      <trkpt lat="46.564009" lon="4.9121">
         <ele>177.0</ele>
       </trkpt>
-      <trkpt lat="46.56394" lon="4.91214">
-        <ele>177.9</ele>
+      <trkpt lat="46.56399" lon="4.91211">
+        <ele>178.1</ele>
       </trkpt>
-      <trkpt lat="46.56364" lon="4.91231">
-        <ele>180.6</ele>
+      <trkpt lat="46.56367" lon="4.91106">
+        <ele>185.1</ele>
       </trkpt>
-      <trkpt lat="46.56334" lon="4.91247">
-        <ele>180.7</ele>
-      </trkpt>
-      <trkpt lat="46.56318" lon="4.91257">
-        <ele>178.9</ele>
-      </trkpt>
-      <trkpt lat="46.56306" lon="4.91266">
-        <ele>178.2</ele>
-      </trkpt>
-      </trkseg>
+    </trkseg>
   </trk>
 </gpx>
