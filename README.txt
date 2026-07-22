@@ -1,3 +1,1 @@
-France2026 v2.9.1 — Jour 15 Chagny → Tournus. Ajout du programme du Jour 15 et des liens de pâtisseries aux Jours 14 et 15.
-
-Jour 15 : RideWithGPS https://ridewithgps.com/routes/56273151
+France2026 v2.9.2 — Jour 16 ajouté : Tournus vers Belleville-en-Beaujolais (parcours provisoire). Jour 15 corrigé avec un dénivelé positif de 173 m. Vérification effectuée : toutes les journées à vélo déjà programmées affichent un champ de dénivelé positif.
