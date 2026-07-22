@@ -146,7 +146,23 @@ const days=[
 ['📍 Domaine René Leclerc','https://www.google.com/maps/search/?api=1&query=Domaine+Rene+Leclerc+Gevrey-Chambertin'],
 ['📍 Domaine des Beaumont','https://www.google.com/maps/search/?api=1&query=Domaine+des+Beaumont+Morey-Saint-Denis']
 ]},
-...Array.from({length:14},(_,i)=>({n:i+14,date:`${i+14} septembre 2026`,title:i===13?'Arrivée à Sète':'Étape vélo à préciser',spirit:i===13?'Atteindre la Méditerranée et savourer le chemin parcouru.':'Cette étape sera complétée lorsque le découpage définitif sera confirmé.',pending:i!==13,facts:[['Statut',i===13?'Arrivée prévue':'À compléter'],['Parcours','Voir RideWithGPS']],stops:[['Préparation','Cette journée sera détaillée lorsque le découpage définitif des étapes sera confirmé.']]}))
+{n:14,date:'Lundi 14 septembre 2026',title:'Marsannay-la-Côte → Chagny',spirit:'Reprendre la route à travers les grands vignobles de Bourgogne et réserver l’arrêt principal de la journée à Meursault.',facts:[['Distance','70,3 km'],['Dénivelé positif','À confirmer dans RideWithGPS'],['Arrêt principal','Meursault'],['Hébergement','À confirmer — Chagny']],stops:[
+['Départ — Marsannay-la-Côte','Quitter Marsannay-la-Côte après trois nuitées et reprendre la route avec les vélos chargés. Le parcours suit la Côte de Nuits puis la Côte de Beaune, au cœur de la Route des Grands Crus.'],
+['Clos de Vougeot — vers le km 13,5','Passage tout près du château. Prévoir seulement un arrêt photo ou une courte pause afin de garder du temps pour Meursault, qui demeure la visite principale de la journée.'],
+['Nuits-Saint-Georges — vers le km 19','Premier véritable arrêt de la journée : boulangerie ou pâtisserie, remplissage des bouteilles et ravitaillement au besoin.'],
+['Beaune — vers le km 42','Le parcours passe près de Beaune sans imposer une longue visite du centre. La ville constitue toutefois une excellente solution de repli pour dîner, acheter un repas à emporter ou utiliser les services.'],
+['Pommard et Volnay — km 46 à 47','Traverser tranquillement les vignobles de Pommard et de Volnay. Profiter des paysages et des villages, avec quelques arrêts spontanés pour les photos.'],
+['Meursault — vers le km 51','Arrêt principal de la journée. Comme vous aimez particulièrement les vins de Meursault, prévoir le dîner ainsi qu’une visite ou une dégustation dans un domaine. Le Château de Meursault se trouve à environ 400 mètres du tracé. Selon l’heure d’arrivée et les disponibilités, choisir une visite complète ou demander une dégustation plus courte et modérée avant de reprendre les vélos.',[['🌐 Château de Meursault','https://www.chateau-meursault.com/'],['📍 Ouvrir dans Google Maps','https://www.google.com/maps/search/?api=1&query=Chateau+de+Meursault']]],
+['Puligny-Montrachet — vers le km 55','Traverser ce village réputé pour ses grands vins blancs. Le passage est surtout panoramique et ne nécessite pas une autre visite organisée.'],
+['Santenay — vers le km 64','Dernière halte possible avant Chagny : courte pause, photos et ravitaillement rapide au besoin.'],
+['Arrivée — Chagny','Terminer l’étape à Chagny, ville pratique pour les cyclistes avec commerces, restaurants et accès facile au canal du Centre pour la suite du voyage. Vérifier l’accès à l’hébergement et le rangement sécuritaire des vélos.']
+],links:[
+['GPX - Marsannay-la-Côte → Chagny','https://ridewithgps.com/routes/56269293'],
+['📍 Château de Meursault','https://www.google.com/maps/search/?api=1&query=Chateau+de+Meursault'],
+['🍽️ Restaurants — Chagny','https://www.google.com/maps/search/?api=1&query=restaurants+Chagny'],
+['🛒 Épiceries — Chagny','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Chagny']
+]},
+...Array.from({length:13},(_,i)=>({n:i+15,date:`${i+15} septembre 2026`,title:i===12?'Arrivée à Sète':'Étape vélo à préciser',spirit:i===12?'Atteindre la Méditerranée et savourer le chemin parcouru.':'Cette étape sera complétée lorsque le découpage définitif sera confirmé.',pending:i!==12,facts:[['Statut',i===12?'Arrivée prévue':'À compléter'],['Parcours','Voir RideWithGPS']],stops:[['Préparation','Cette journée sera détaillée lorsque le découpage définitif des étapes sera confirmé.']]}))
 ];
 function route(){const id=(location.hash||'#accueil').slice(1).split('?')[0];document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));(document.getElementById(id)||document.getElementById('accueil')).classList.add('active');window.scrollTo(0,0)}
 function renderDays(){dayList.innerHTML=days.map(d=>`<div class="dayitem ${d.pending?'pending':''}" data-day="${d.n}"><div class="daynum">${d.n}</div><div><b>${d.title}</b><small>${d.date}${d.pending?' · à compléter':''}</small></div></div>`).join('');dayList.onclick=e=>{const x=e.target.closest('[data-day]');if(x){renderDay(+x.dataset.day);location.hash='day'}}}
@@ -161,7 +177,7 @@ async function shareGpx(fileName){
     if(navigator.canShare&&navigator.canShare({files:[file]})){
       await navigator.share({
         files:[file],
-        title:fileName.includes('jour-13')?'Jour 13 — Boucle dans les vignobles':fileName.includes('jour-11')?'Jour 11 — Dole → Marsannay-la-Côte':fileName.includes('jour-10')?'Jour 10 — Besançon → Dole':fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar via Maison Hauller':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
+        title:fileName.includes('jour-14')?'Jour 14 — Marsannay-la-Côte → Chagny':fileName.includes('jour-13')?'Jour 13 — Boucle dans les vignobles':fileName.includes('jour-11')?'Jour 11 — Dole → Marsannay-la-Côte':fileName.includes('jour-10')?'Jour 10 — Besançon → Dole':fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar via Maison Hauller':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
         text:'Ouvrir ce parcours dans RideWithGPS'
       });
     }else{

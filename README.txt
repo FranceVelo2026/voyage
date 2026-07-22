@@ -1,5 +1,7 @@
-France2026 v2.8.8 — Jour 13
+France2026 v2.8.9 — Jour 14
 
-Mise à jour du Jour 13 : boucle à vélo sans bagages dans les vignobles de la Côte de Nuits.
-Parcours RideWithGPS 56269077 — 25,3 km — 231 m de dénivelé positif.
-Visites possibles au Domaine René Leclerc et au Domaine des Beaumont, sans horaire fixe; décision sur place de visiter un seul domaine ou les deux.
+Mise à jour du Jour 14 : Marsannay-la-Côte → Chagny.
+Parcours RideWithGPS 56269293 — 70,3 km.
+Programme : Clos de Vougeot, Nuits-Saint-Georges, Beaune, Pommard, Volnay, arrêt principal à Meursault, puis Puligny-Montrachet, Santenay et arrivée à Chagny.
+Le dénivelé affiché demeure à confirmer selon la valeur RideWithGPS.
+Ajout du GPX du Jour 14, mise à jour de la section Parcours et du cache hors connexion.
