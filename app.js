@@ -174,14 +174,14 @@ const days=[
 ['🍽️ Restaurants — Tournus','https://www.google.com/maps/search/?api=1&query=restaurants+Tournus'],
 ['🛒 Épiceries — Tournus','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Tournus']
 ]},
-{n:16,date:'Mercredi 16 septembre 2026',title:'Tournus → Belleville-en-Beaujolais',spirit:'Poursuivre tranquillement le long de la Saône, faire une vraie pause à Mâcon et rejoindre une ville-étape bien équipée aux portes du Beaujolais.',facts:[['Distance','Environ 62 km'],['Dénivelé positif','À confirmer dans RideWithGPS'],['Pause pâtisserie','Mâcon — vers le km 33'],['Hébergement','À confirmer — Belleville-en-Beaujolais']],stops:[
+{n:16,date:'Mercredi 16 septembre 2026',title:'Tournus → Belleville-en-Beaujolais',spirit:'Poursuivre tranquillement le long de la Saône, faire une vraie pause à Mâcon et rejoindre une ville-étape bien équipée aux portes du Beaujolais.',facts:[['Distance','61,5 km'],['Dénivelé positif','À confirmer dans RideWithGPS'],['Pause pâtisserie','Mâcon — vers le km 33'],['Hébergement','À confirmer — Belleville-en-Beaujolais']],stops:[
 ['Départ — Tournus','Quitter Tournus et reprendre la Voie Bleue vers le sud. Le parcours longe la Saône sur une étape généralement roulante, avec les vélos chargés.'],
 ['Mâcon — vers le km 33','Après environ une heure et demie à deux heures de vélo, faire la principale pause gourmande de la journée dans le centre de Mâcon. Profiter de cet arrêt pour une pâtisserie, remplir les bouteilles et acheter un sandwich ou quelques provisions au besoin.',[['🥐 Pâtisseries et boulangeries — Mâcon','https://www.google.com/maps/search/?api=1&query=patisserie+boulangerie+centre+Macon'],['📍 Centre de Mâcon','https://www.google.com/maps/search/?api=1&query=centre+ville+Macon']]],
 ['Voie Bleue et vallée de la Saône','Après Mâcon, poursuivre vers le sud le long de la Saône. Garder un rythme régulier et profiter des haltes au bord de l’eau sans multiplier les grands détours.'],
 ['Thoissey et secteur de Saint-Didier-sur-Chalaronne','Ce secteur constitue une possibilité de pause plus tardive pour l’eau, les toilettes ou un ravitaillement rapide avant les derniers kilomètres.'],
 ['Arrivée — Belleville-en-Beaujolais','Quitter légèrement le tracé principal pour rejoindre l’hébergement à Belleville-en-Beaujolais. La ville offre davantage de choix pour dormir, souper et faire les provisions que les petites communes voisines. Vérifier le rangement sécuritaire des deux vélos.']
 ],links:[
-['GPX provisoire - Tournus → Belleville-en-Beaujolais','https://ridewithgps.com/routes/56273559'],
+['GPX - Tournus → Belleville-en-Beaujolais','https://ridewithgps.com/routes/56273559'],
 ['🥐 Pâtisseries — Mâcon','https://www.google.com/maps/search/?api=1&query=patisserie+boulangerie+centre+Macon'],
 ['🍽️ Restaurants — Belleville-en-Beaujolais','https://www.google.com/maps/search/?api=1&query=restaurants+Belleville-en-Beaujolais'],
 ['🛒 Épiceries — Belleville-en-Beaujolais','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Belleville-en-Beaujolais'],
