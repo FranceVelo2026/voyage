@@ -106,23 +106,23 @@ const days=[
 ['🛒 Épiceries et marchés — Dole','https://www.google.com/maps/search/?api=1&query=%C3%A9picerie+march%C3%A9+Dole'],
 ['📍 Centre historique de Dole','https://www.google.com/maps/search/?api=1&query=centre+historique+Dole']
 ]},
-{n:11,date:'Vendredi 11 septembre 2026',title:'Dole → Dijon',spirit:'Rejoindre Dijon à un rythme confortable, puis s’installer pour deux nuits et profiter pleinement de la ville.',facts:[['Distance','56,3 km'],['Dénivelé positif','369 m'],['Pause déjeuner possible','Auxonne ou Genlis'],['Hébergement','Airbnb à réserver — 2 nuits']],stops:[
-['Départ — Dole','Le parcours commence à Dole et prend la direction de Dijon.'],
+{n:11,date:'Vendredi 11 septembre 2026',title:'Dole → Marsannay-la-Côte',spirit:'Rejoindre la Côte de Nuits et s’installer aux portes de Dijon pour profiter ensuite de la ville et des vignobles sans les bagages.',facts:[['Distance','56,4 km'],['Dénivelé positif','386 m'],['Pause déjeuner possible','Auxonne ou Genlis'],['Hébergement','Chambre d’hôte à confirmer — Marsannay-la-Côte']],stops:[
+['Départ — Dole','Le parcours commence à Dole et prend la direction de Marsannay-la-Côte, au sud de Dijon.'],
 ['🥐 Pause déjeuner — option 1','Auxonne constitue une bonne première option pour une pause, avec des boulangeries et commerces. Vérifier les heures d’ouverture le jour même.'],
 ['🥐 Pause déjeuner — option 2','Genlis offre une possibilité plus tardive si vous préférez rouler davantage avant de manger.'],
-['🏡 Arrivée et hébergement','Prévoir deux nuits à Dijon. Privilégier un logement central ou facile d’accès depuis le parcours, avec un endroit sécuritaire pour les deux vélos.'],
-['🍽️ Repas à proximité','Dijon offre de nombreux restaurants, traiteurs et commerces pour un repas sur place ou à emporter.'],
-['🛒 Épicerie / marché','Le centre-ville compte plusieurs commerces alimentaires pour le souper et les provisions.'],
-['⭐ À ne pas manquer','La première soirée peut servir à découvrir tranquillement le centre historique avant la journée complète du lendemain.'],
-['💡 Conseil d’Alice','Une fois l’Airbnb réservé, ajuster au besoin les derniers kilomètres du GPX afin de terminer directement à l’hébergement.']
+['🏡 Arrivée et hébergement','La chambre d’hôte à Marsannay-la-Côte n’est pas encore confirmée. Une fois la réservation obtenue, vérifier l’accès exact et la possibilité de ranger les deux vélos en sécurité.'],
+['🍽️ Repas à proximité','Marsannay-la-Côte et le sud de Dijon offrent des restaurants, traiteurs et commerces pour un repas sur place ou à emporter.'],
+['🛒 Épicerie / marché','Des commerces alimentaires sont accessibles à Marsannay-la-Côte et dans les secteurs voisins pour le souper et les provisions.'],
+['⭐ À ne pas manquer','Marsannay-la-Côte marque l’entrée de la Route des Grands Crus et constitue une base pratique pour la découverte de Dijon le lendemain.'],
+['💡 Conseil d’Alice','Une fois la chambre d’hôte confirmée, ajuster au besoin les derniers kilomètres du GPX afin de terminer directement à l’hébergement.']
 ],links:[
-['GPX - Dole @ Dijon','https://ridewithgps.com/routes/56222465'],
-['🏡 Demander à Alice de trouver un Airbnb pour deux nuits','https://chatgpt.com/'],
+['GPX - Dole @ Marsannay-la-Côte','https://ridewithgps.com/routes/56267399'],
+['🏡 Hébergement à Marsannay-la-Côte — confirmation en attente','https://www.google.com/maps/search/?api=1&query=chambre+d+hote+Marsannay-la-Cote'],
 ['🥐 Boulangeries — Auxonne','https://www.google.com/maps/search/?api=1&query=boulangerie+Auxonne'],
 ['🥐 Boulangeries — Genlis','https://www.google.com/maps/search/?api=1&query=boulangerie+Genlis'],
-['🥡 Repas à emporter — Dijon','https://www.google.com/maps/search/?api=1&query=restaurant+%C3%A0+emporter+Dijon'],
-['🛒 Épiceries et marchés — Dijon','https://www.google.com/maps/search/?api=1&query=%C3%A9picerie+march%C3%A9+Dijon'],
-['📍 Centre historique de Dijon','https://www.google.com/maps/search/?api=1&query=centre+historique+Dijon']
+['🥡 Repas à emporter — Marsannay-la-Côte','https://www.google.com/maps/search/?api=1&query=restaurant+a+emporter+Marsannay-la-Cote'],
+['🛒 Épiceries et marchés — Marsannay-la-Côte','https://www.google.com/maps/search/?api=1&query=epicerie+marche+Marsannay-la-Cote'],
+['📍 Centre de Marsannay-la-Côte','https://www.google.com/maps/search/?api=1&query=centre+Marsannay-la-Cote']
 ]},
 {n:12,date:'Samedi 12 septembre 2026',title:'Découverte de Dijon',spirit:'Prendre le temps de découvrir Dijon à pied, en gardant la liberté de choisir les activités selon votre énergie et la météo.',facts:[['Type','Journée de visite'],['Déplacement','À pied'],['Rythme','Libre et sans horaire rigide'],['Hébergement','Deuxième nuit à Dijon']],stops:[
 ['Parcours de la Chouette','Ce parcours pédestre suit de petites chouettes de bronze incrustées dans le sol et traverse les rues anciennes, les hôtels particuliers, les places et les principaux monuments du centre historique.<br><strong>Pourquoi le faire :</strong> c’est la meilleure façon de prendre contact avec Dijon sans horaire rigide, tout en reliant naturellement plusieurs autres activités de la journée.',[['📍 Ouvrir dans Google Maps','https://www.google.com/maps/search/?api=1&query=Parcours+de+la+Chouette+Dijon']]],
@@ -162,7 +162,7 @@ async function shareGpx(fileName){
     if(navigator.canShare&&navigator.canShare({files:[file]})){
       await navigator.share({
         files:[file],
-        title:fileName.includes('jour-13')?'Jour 13 — Dijon → Beaune':fileName.includes('jour-11')?'Jour 11 — Dole → Dijon':fileName.includes('jour-10')?'Jour 10 — Besançon → Dole':fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar via Maison Hauller':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
+        title:fileName.includes('jour-13')?'Jour 13 — Dijon → Beaune':fileName.includes('jour-11')?'Jour 11 — Dole → Marsannay-la-Côte':fileName.includes('jour-10')?'Jour 10 — Besançon → Dole':fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar via Maison Hauller':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
         text:'Ouvrir ce parcours dans RideWithGPS'
       });
     }else{
