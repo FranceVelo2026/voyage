@@ -236,6 +236,8 @@ const days=[
 ['Valence — vers le km 21','Après environ 1 h à 1 h 30 de vélo, faire ici la principale pause pâtisserie-boulangerie de la journée. Profiter de l’arrêt pour remplir les bouteilles et acheter au besoin quelques provisions.',[['🥐 Pâtisseries et boulangeries — Valence','https://www.google.com/maps/search/?api=1&query=patisserie+boulangerie+Valence'],['📍 Centre de Valence','https://www.google.com/maps/search/?api=1&query=centre+Valence+Drome']]],
 ['Poursuite vers Montélimar','Après Valence, continuer vers le sud en suivant le parcours prévu. Cette deuxième partie est plus longue : prévoir eau et ravitaillement avant de quitter les principaux secteurs commerçants.'],
 ['Arrivée — Montélimar','Fin de l’étape après 82 km. S’installer, sécuriser les deux vélos et faire les provisions pour le lendemain.']
+],actions:[
+['📤 Ouvrir le GPX du Jour 20','share-gpx','jour-20-tain-lhermitage-montelimar.gpx']
 ],links:[
 ['🚴 ViaRhôna — secteur Valence','https://www.viarhona.com/itineraire/tournon-sur-rhone-glun-a-bourg-les-valence-valence'],
 ['🍽️ Restaurants — Montélimar','https://www.google.com/maps/search/?api=1&query=restaurants+Montelimar'],
@@ -270,7 +272,7 @@ async function shareGpx(fileName){
     if(navigator.canShare&&navigator.canShare({files:[file]})){
       await navigator.share({
         files:[file],
-        title:fileName.includes('jour-21')?'Jour 21 — Montélimar → Orange':fileName.includes('jour-17')?'Jour 17 — Belleville-en-Beaujolais → Givors':fileName.includes('jour-16')?'Jour 16 — Tournus → Belleville-en-Beaujolais':fileName.includes('jour-15')?'Jour 15 — Chagny → Tournus':fileName.includes('jour-14')?'Jour 14 — Marsannay-la-Côte → Chagny':fileName.includes('jour-13')?'Jour 13 — Boucle dans les vignobles':fileName.includes('jour-11')?'Jour 11 — Dole → Marsannay-la-Côte':fileName.includes('jour-10')?'Jour 10 — Besançon → Dole':fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
+        title:fileName.includes('jour-21')?'Jour 21 — Montélimar → Orange':fileName.includes('jour-20')?'Jour 20 — Tain-l’Hermitage → Montélimar':fileName.includes('jour-17')?'Jour 17 — Belleville-en-Beaujolais → Givors':fileName.includes('jour-16')?'Jour 16 — Tournus → Belleville-en-Beaujolais':fileName.includes('jour-15')?'Jour 15 — Chagny → Tournus':fileName.includes('jour-14')?'Jour 14 — Marsannay-la-Côte → Chagny':fileName.includes('jour-13')?'Jour 13 — Boucle dans les vignobles':fileName.includes('jour-11')?'Jour 11 — Dole → Marsannay-la-Côte':fileName.includes('jour-10')?'Jour 10 — Besançon → Dole':fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
         text:'Ouvrir ce parcours dans RideWithGPS'
       });
     }else{
