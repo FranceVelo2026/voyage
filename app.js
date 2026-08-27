@@ -17,7 +17,7 @@ const days=[
 ['Halles Paul Bocuse','Marché couvert emblématique pour découvrir les spécialités lyonnaises, grignoter sur place ou acheter un repas simple à emporter.<br><strong>⏱️ Durée suggérée :</strong> 1 h à 1 h 30.',[['📍 Ouvrir dans Google Maps','https://www.google.com/maps/search/?api=1&query=Halles+de+Lyon+Paul+Bocuse'],['📖 En savoir plus','https://www.halles-de-lyon-paulbocuse.com/']]],
 ['Parc de la Tête d’Or','Grande pause verte avec lac, jardins et longues allées. Une option agréable pour ralentir le rythme après les quartiers centraux.<br><strong>⏱️ Durée suggérée :</strong> 1 h à 2 h.',[['📍 Ouvrir dans Google Maps','https://www.google.com/maps/search/?api=1&query=Parc+de+la+T%C3%AAte+d%27Or,+Lyon'],['📖 En savoir plus','https://www.lyon.fr/lieu/parcs/parc-de-la-tete-dor']]]
 ]},
-{n:3,date:'Jeudi 3 septembre 2026',title:'Lyon → Strasbourg',spirit:'Transformer le trajet en train en une transition douce vers le début du voyage.',facts:[['Transport','Train avec 2 vélos'],['Arrivée','Gare de Strasbourg'],['Hébergement','17, rue des Orfèvres'],['Statut','Horaire à confirmer']],stops:[['Résumé','7 h 26 • 3 TER • 2 correspondances • Vélo sans réservation'],['⚠️ À confirmer','Horaires et numéros de train à confirmer lors de l’achat des billets SNCF.'],['Avant le départ','Prévoir de l’eau et des collations.'],['Gare Lyon Part-Dieu','Arriver tôt pour repérer la voiture vélo et installer les bicyclettes.'],['Gare de Strasbourg → Airbnb','Rejoindre le 17, rue des Orfèvres à vélo.'],['Installation','Déposer les bagages et sécuriser les vélos.']],links:[['GPX - Gare de Strasbourg @ Airbnb','https://ridewithgps.com/routes/56200417?privacy_code=fHM29CvZ3sIqPWAitvokEywHJS8kqvcn'],['🗺️ Voir le trajet dans Google Maps','https://www.google.com/maps/dir/?api=1&origin=Gare+de+Strasbourg,+Strasbourg&destination=17+Rue+des+Orf%C3%A8vres,+67000+Strasbourg&travelmode=bicycling'],['🚆 SNCF Connect','https://www.sncf-connect.com/'],['🚲 Vélo à bord','https://www.veloabord.fr']]},
+{n:3,date:'Jeudi 3 septembre 2026',title:'Lyon → Strasbourg',spirit:'Transformer le trajet en train en une transition douce vers le début du voyage.',facts:[['Transport','Train avec 2 vélos'],['Arrivée','Gare de Strasbourg'],['Hébergement','17, rue des Orfèvres'],['Statut','Horaire à confirmer']],stops:[['Résumé','7 h 26 • 3 TER • 2 correspondances • Vélo sans réservation'],['⚠️ À confirmer','Horaires et numéros de train à confirmer lors de l’achat des billets SNCF.'],['Avant le départ','Prévoir de l’eau et des collations.'],['Gare Lyon Part-Dieu','Arriver tôt pour repérer la voiture vélo et installer les bicyclettes.'],['Gare de Strasbourg → Airbnb','Rejoindre le 17, rue des Orfèvres à vélo.'],['Installation','Déposer les bagages et sécuriser les vélos.']],links:[['GPX - Strasbourg @ Strasbourg','https://ridewithgps.com/routes/56200417?privacy_code=fHM29CvZ3sIqPWAitvokEywHJS8kqvcn'],['🗺️ Voir le trajet dans Google Maps','https://www.google.com/maps/dir/?api=1&origin=Gare+de+Strasbourg,+Strasbourg&destination=17+Rue+des+Orf%C3%A8vres,+67000+Strasbourg&travelmode=bicycling'],['🚆 SNCF Connect','https://www.sncf-connect.com/'],['🚲 Vélo à bord','https://www.veloabord.fr']]},
 {n:4,date:'Vendredi 4 septembre 2026',title:'Découverte de Strasbourg',spirit:'Découvrir Strasbourg avant le grand départ.',facts:[['Type','Journée de visite'],['Hébergement','17, rue des Orfèvres'],['Rythme','Libre'],['Départ vélo','Le lendemain']],stops:[
 ['Cathédrale Notre-Dame','Chef-d’œuvre gothique en grès rose, célèbre pour sa façade sculptée, ses vitraux et son horloge astronomique. La visite intérieure demeure facultative selon votre intérêt.<br><strong>⏱️ Durée suggérée :</strong> 45 à 60 min.',[['📍 Ouvrir dans Google Maps','https://www.google.com/maps/search/?api=1&query=Cath%C3%A9drale+Notre-Dame+de+Strasbourg'],['📖 En savoir plus','https://www.visitstrasbourg.fr/decouvrir-strasbourg/les-incontournables/la-cathedrale/']]],
 ['Petite France','Quartier emblématique autour des canaux de l’Ill, avec ses maisons à colombages, ses ponts et ses anciennes rues de tanneurs. C’est l’un des meilleurs secteurs pour flâner sans itinéraire rigide.<br><strong>⏱️ Durée suggérée :</strong> 1 h à 1 h 30.',[['📍 Ouvrir dans Google Maps','https://www.google.com/maps/search/?api=1&query=Petite+France,+Strasbourg'],['📖 En savoir plus','https://www.visitstrasbourg.fr/decouvrir-strasbourg/les-incontournables/la-petite-france/']]],
@@ -152,7 +152,7 @@ const days=[
 ['Retour — Marsannay-la-Côte','Revenir tranquillement à Marsannay-la-Côte en complétant la boucle. Comme vous n’aurez pas les bagages, vous pourrez ajuster le rythme et les arrêts selon la durée des visites.'],
 ['Choix sur place','Aucun horaire n’est fixé. Vous déciderez le jour même de visiter le Domaine René Leclerc, le Domaine des Beaumont, ou les deux. Il est prudent de vérifier les disponibilités avant d’entrer dans les domaines.']
 ],links:[
-['GPX - Boucle dans les vignobles','https://ridewithgps.com/routes/56269077'],
+['GPX - Marsannay-la-Côte @ Marsannay-la-Côte','https://ridewithgps.com/routes/56269077'],
 ['📍 Domaine René Leclerc','https://www.google.com/maps/search/?api=1&query=Domaine+Rene+Leclerc+Gevrey-Chambertin'],
 ['📍 Domaine des Beaumont','https://www.google.com/maps/search/?api=1&query=Domaine+des+Beaumont+Morey-Saint-Denis']
 ]},
@@ -167,7 +167,7 @@ const days=[
 ['Santenay — vers le km 64','Dernière halte possible avant Chagny : courte pause, photos et ravitaillement rapide au besoin.'],
 ['Arrivée — Chagny','Terminer l’étape à Chagny, ville pratique pour les cyclistes avec commerces, restaurants et accès facile au canal du Centre pour la suite du voyage. Vérifier l’accès à l’hébergement et le rangement sécuritaire des vélos.']
 ],links:[
-['GPX - Marsannay-la-Côte → Chagny','https://ridewithgps.com/routes/56269293'],
+['GPX - Marsannay-la-Côte @ Chagny','https://ridewithgps.com/routes/56269293'],
 ['📍 Château de Meursault','https://www.google.com/maps/search/?api=1&query=Chateau+de+Meursault'],
 ['🍽️ Restaurants — Chagny','https://www.google.com/maps/search/?api=1&query=restaurants+Chagny'],
 ['🛒 Épiceries — Chagny','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Chagny']
@@ -179,7 +179,7 @@ const days=[
 ['Pause repas en route','Selon l’heure et l’appétit, acheter un sandwich ou un repas à emporter à Chalon-sur-Saône, ou poursuivre jusqu’à Tournus pour dîner après l’arrivée.'],
 ['Arrivée — Tournus','Ranger les vélos puis profiter du centre ancien. Tournus offre des restaurants, des commerces et plusieurs possibilités de ravitaillement pour le souper et le lendemain.']
 ],links:[
-['GPX - Chagny → Tournus','https://ridewithgps.com/routes/56273151'],
+['GPX - Chagny @ Tournus','https://ridewithgps.com/routes/56273151'],
 ['🥐 Pâtisseries — Chalon-sur-Saône','https://www.google.com/maps/search/?api=1&query=patisserie+boulangerie+Chalon-sur-Saone'],
 ['🍽️ Restaurants — Tournus','https://www.google.com/maps/search/?api=1&query=restaurants+Tournus'],
 ['🛒 Épiceries — Tournus','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Tournus']
@@ -191,7 +191,7 @@ const days=[
 ['Thoissey et secteur de Saint-Didier-sur-Chalaronne','Ce secteur constitue une possibilité de pause plus tardive pour l’eau, les toilettes ou un ravitaillement rapide avant les derniers kilomètres.'],
 ['Arrivée — Belleville-en-Beaujolais','Quitter légèrement le tracé principal pour rejoindre l’hébergement à Belleville-en-Beaujolais. La ville offre davantage de choix pour dormir, souper et faire les provisions que les petites communes voisines. Vérifier le rangement sécuritaire des deux vélos.']
 ],links:[
-['GPX - Tournus → Belleville-en-Beaujolais','https://ridewithgps.com/routes/56273559'],
+['GPX - Tournus @ Belleville-en-Beaujolais','https://ridewithgps.com/routes/56273559'],
 ['🥐 Pâtisseries — Mâcon','https://www.google.com/maps/search/?api=1&query=patisserie+boulangerie+centre+Macon'],
 ['🍽️ Restaurants — Belleville-en-Beaujolais','https://www.google.com/maps/search/?api=1&query=restaurants+Belleville-en-Beaujolais'],
 ['🛒 Épiceries — Belleville-en-Beaujolais','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Belleville-en-Beaujolais'],
@@ -206,7 +206,7 @@ const days=[
 ['L’Atelier Vélo — secteur sud de Lyon','Le GPX comprend un point de repère pour L’Atelier Vélo. Le conserver comme solution de dépannage éventuelle, sans prévoir un arrêt systématique.'],
 ['Arrivée — Givors','Rejoindre Givors par Grigny-sur-Rhône. La ville constitue une étape pratique au-delà de Lyon, avec gare, commerces et services. Vérifier à l’hébergement qu’un rangement sécuritaire est prévu pour les deux vélos.']
 ],links:[
-['GPX - Belleville-en-Beaujolais → Givors (tracé alternatif)','https://ridewithgps.com/routes/56281487'],
+['GPX - Belleville-en-Beaujolais @ Givors','https://ridewithgps.com/routes/56281487'],
 ['🥐 Pâtisseries — Neuville-sur-Saône','https://www.google.com/maps/search/?api=1&query=patisserie+boulangerie+Neuville-sur-Saone'],
 ['🍽️ Restaurants — Givors','https://www.google.com/maps/search/?api=1&query=restaurants+Givors'],
 ['🛒 Épiceries — Givors','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Givors'],
@@ -219,7 +219,7 @@ const days=[
 ['Approche de Tain-l’Hermitage','L’arrivée se fait dans le secteur viticole de Tain-l’Hermitage, face à Tournon-sur-Rhône.'],
 ['Arrivée — Tain-l’Hermitage','Installation à l’hébergement. Ce secteur est un excellent candidat pour deux nuits afin de consacrer une journée aux vignobles, au Domaine du Colombier et à la Cité du Chocolat Valrhona.']
 ],links:[
-['GPX - Givors → Tain-l’Hermitage','https://ridewithgps.com/routes/56790082'],
+['GPX - Givors @ Tain-l’Hermitage','https://ridewithgps.com/routes/56790082'],
 ['🍽️ Restaurants — Tain-l’Hermitage','https://www.google.com/maps/search/?api=1&query=restaurants+Tain-l%27Hermitage'],
 ['🛒 Épiceries — Tain-l’Hermitage','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Tain-l%27Hermitage'],
 ['🏡 Hébergements — Tain-l’Hermitage','https://www.google.com/maps/search/?api=1&query=hebergement+Tain-l%27Hermitage']
@@ -237,7 +237,7 @@ const days=[
 ['Poursuite vers Montélimar','Après Valence, continuer vers le sud en suivant le parcours prévu. Cette deuxième partie est plus longue : prévoir eau et ravitaillement avant de quitter les principaux secteurs commerçants.'],
 ['Arrivée — Montélimar','Fin de l’étape après 82 km. S’installer, sécuriser les deux vélos et faire les provisions pour le lendemain.']
 ],links:[
-['🚴 Ouvrir le Jour 20 dans Ride with GPS','https://ridewithgps.com/routes/56830705'],
+['GPX - Tain-l’Hermitage @ Montélimar','https://ridewithgps.com/routes/56830705'],
 ['🚴 ViaRhôna — secteur Valence','https://www.viarhona.com/itineraire/tournon-sur-rhone-glun-a-bourg-les-valence-valence'],
 ['🍽️ Restaurants — Montélimar','https://www.google.com/maps/search/?api=1&query=restaurants+Montelimar'],
 ['🛒 Épiceries — Montélimar','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Montelimar'],
@@ -249,7 +249,7 @@ const days=[
 ['Reprise vers Orange','Après Pierrelatte, poursuivre vers le sud en gardant un rythme confortable. Il reste environ 38 km jusqu’à Orange.'],
 ['Arrivée — Orange','Fin de l’étape à Orange. S’installer, sécuriser les deux vélos et profiter du reste de la journée pour les provisions et la préparation de l’étape suivante.']
 ],links:[
-['🚴 Ouvrir le Jour 21 dans Ride with GPS','https://ridewithgps.com/routes/56876673'],
+['GPX - Montélimar @ Orange','https://ridewithgps.com/routes/56876673'],
 ['🥐 Pâtisseries — Pierrelatte','https://www.google.com/maps/search/?api=1&query=patisserie+boulangerie+Pierrelatte'],
 ['🍽️ Restaurants — Orange','https://www.google.com/maps/search/?api=1&query=restaurants+Orange+Vaucluse'],
 ['🛒 Épiceries — Orange','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Orange+Vaucluse'],
@@ -295,4 +295,4 @@ document.addEventListener('click',e=>{
 
 function loadNotes(){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');notes.innerHTML=a.map((n,i)=>`<div class="noteitem"><button data-del="${i}">Supprimer</button><b>${escapeHtml(n.t)}</b><p>${escapeHtml(n.x).replace(/\n/g,'<br>')}</p></div>`).join('')||'<p class="muted">Aucune note enregistrée.</p>'}
 function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=2.9.15').then(r=>r.update());
+saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=2.9.16').then(r=>r.update());
