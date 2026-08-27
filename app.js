@@ -237,7 +237,7 @@ const days=[
 ['Poursuite vers Montélimar','Après Valence, continuer vers le sud en suivant le parcours prévu. Cette deuxième partie est plus longue : prévoir eau et ravitaillement avant de quitter les principaux secteurs commerçants.'],
 ['Arrivée — Montélimar','Fin de l’étape après 82 km. S’installer, sécuriser les deux vélos et faire les provisions pour le lendemain.']
 ],links:[
-['📥 GPX — Jour 20 (Tain-l’Hermitage → Montélimar)','./jour-20-tain-lhermitage-montelimar.gpx'],
+['🚴 Ouvrir le Jour 20 dans Ride with GPS','https://ridewithgps.com/routes/56830705'],
 ['🚴 ViaRhôna — secteur Valence','https://www.viarhona.com/itineraire/tournon-sur-rhone-glun-a-bourg-les-valence-valence'],
 ['🍽️ Restaurants — Montélimar','https://www.google.com/maps/search/?api=1&query=restaurants+Montelimar'],
 ['🛒 Épiceries — Montélimar','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Montelimar'],
@@ -249,7 +249,7 @@ const days=[
 ['Reprise vers Orange','Après Pierrelatte, poursuivre vers le sud en gardant un rythme confortable. Il reste environ 38 km jusqu’à Orange.'],
 ['Arrivée — Orange','Fin de l’étape à Orange. S’installer, sécuriser les deux vélos et profiter du reste de la journée pour les provisions et la préparation de l’étape suivante.']
 ],links:[
-['📥 GPX — Jour 21 (Montélimar → Orange)','./jour-21-montelimar-orange.gpx'],
+['🚴 Ouvrir le Jour 21 dans Ride with GPS','https://ridewithgps.com/routes/56876673'],
 ['🥐 Pâtisseries — Pierrelatte','https://www.google.com/maps/search/?api=1&query=patisserie+boulangerie+Pierrelatte'],
 ['🍽️ Restaurants — Orange','https://www.google.com/maps/search/?api=1&query=restaurants+Orange+Vaucluse'],
 ['🛒 Épiceries — Orange','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Orange+Vaucluse'],
@@ -295,4 +295,4 @@ document.addEventListener('click',e=>{
 
 function loadNotes(){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');notes.innerHTML=a.map((n,i)=>`<div class="noteitem"><button data-del="${i}">Supprimer</button><b>${escapeHtml(n.t)}</b><p>${escapeHtml(n.x).replace(/\n/g,'<br>')}</p></div>`).join('')||'<p class="muted">Aucune note enregistrée.</p>'}
 function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=2.9.14').then(r=>r.update());
+saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=2.9.15').then(r=>r.update());
