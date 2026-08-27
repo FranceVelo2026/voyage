@@ -231,25 +231,35 @@ const days=[
 ['4. Cité du Chocolat Valrhona','Terminer la journée par la Cité du Chocolat. Prévoir environ 1 h 30 à 2 h. Réservation recommandée; vérifier également la programmation du samedi 19 septembre avant le voyage.',[['📍 Google Maps','https://www.google.com/maps/search/?api=1&query=Cite+du+Chocolat+Valrhona+12+Avenue+du+President+Roosevelt+26600+Tain-l%27Hermitage'],['🎟️ Cité du Chocolat Valrhona','https://www.citeduchocolat.com/fr/preparer-sa-visite/informations-pratiques']]],
 ['Activité supplémentaire — Cave de Tain','À garder seulement si le temps et l’envie le permettent. Elle n’est pas intégrée au programme principal de la journée.',[['📍 Google Maps','https://www.google.com/maps/search/?api=1&query=Cave+de+Tain+22+Route+de+Larnage+26600+Tain-l%27Hermitage'],['🍷 Cave de Tain','https://www.cavedetain.com/']]]
 ]},
-{n:20,date:'Dimanche 20 septembre 2026',title:'Tain-l’Hermitage → Montélimar',spirit:'Poursuivre la ViaRhôna vers le sud pour une journée plus longue, avec Valence puis La Voulte-sur-Rhône comme principaux repères avant l’arrivée à Montélimar.',facts:[['Distance','82 km'],['Dénivelé positif','+396 m'],['Pause déjeuner','La Voulte-sur-Rhône — vers le km 43'],['Arrivée','Montélimar']],stops:[
+{n:20,date:'Dimanche 20 septembre 2026',title:'Tain-l’Hermitage → Le Pouzin',spirit:'Reprendre la ViaRhôna vers le sud avec une étape relativement courte, une pause gourmande à Valence et une arrivée tôt au Pouzin.',facts:[['Distance','50.2 km'],['Dénivelé positif','À confirmer dans RideWithGPS'],['Pause pâtisserie','Valence — vers le km 21'],['Arrivée','Le Pouzin']],stops:[
 ['Départ — Tain-l’Hermitage','Quitter Tain après deux nuits sur place et reprendre le parcours vers le sud. Le GPX rejoint rapidement l’axe de la ViaRhôna en direction de Valence.'],
-['Valence — vers le km 21','Premier grand repère de la journée. Le centre est proche du tracé et constitue un bon endroit pour une pause pâtisserie, remplir les gourdes ou acheter quelques provisions.'],
-['Soyons et Charmes-sur-Rhône','Après Valence, poursuivre vers le sud en alternant voies vertes, petites routes et secteurs partagés. Le parcours suit largement le Rhône et reste roulant.'],
-['La Voulte-sur-Rhône — vers le km 43','Bon point pour la pause déjeuner, pratiquement à mi-parcours. Refaire les réserves d’eau avant de poursuivre vers Le Pouzin puis Cruas.'],
-['Le Pouzin — vers le km 51','Le Pouzin devient un simple point de passage. Continuer vers le sud sans y terminer l’étape.'],
-['Cruas — secteur final','Dernier grand repère avant Montélimar. La fin de journée reste globalement roulante; garder de l’eau et une petite réserve de nourriture pour les derniers kilomètres.'],
-['Arrivée — Montélimar','Fin de l’étape de 82 km. S’installer, mettre les vélos en sécurité et profiter du centre de Montélimar pour le souper et les provisions.']
+['Valence — vers le km 21','Faire ici la principale pause pâtisserie de la journée. Le centre est très proche du tracé et constitue un bon point pour manger, remplir les bouteilles et acheter au besoin quelques provisions.',[['🥐 Pâtisseries et boulangeries — Valence','https://www.google.com/maps/search/?api=1&query=patisserie+boulangerie+Valence'],['📍 Centre de Valence','https://www.google.com/maps/search/?api=1&query=centre+Valence+Drome']]],
+['Traversée de Valence — vigilance','La ViaRhôna traverse certains secteurs urbains sur voies partagées. Rester attentifs à la circulation, aux intersections et au balisage. Des travaux sont annoncés sur l’itinéraire jusqu’en janvier 2027; la continuité cyclable est maintenue mais une vigilance accrue est recommandée.'],
+['Soyons et Charmes-sur-Rhône','Après Valence, poursuivre vers le sud en alternant voies vertes et voies partagées à très faible trafic. Le parcours suit largement le Rhône et reste facile à rouler.'],
+['La Voulte-sur-Rhône — vers le km 43','Dernière possibilité de pause avant l’arrivée. La ViaRhôna franchit le Rhône dans ce secteur avant de poursuivre vers Le Pouzin.'],
+['Arrivée — Le Pouzin','Étape courte qui devrait permettre une arrivée assez tôt. Profiter de l’après-midi pour s’installer, faire les provisions et préparer l’étape suivante. Vérifier comme toujours la possibilité de ranger les deux vélos en sécurité.']
 ],actions:[
-['📤 Ouvrir le GPX du Jour 20','share-gpx','jour-20-tain-montelimar.gpx']
+['📤 Ouvrir le GPX du Jour 20','share-gpx','jour-20-tain-le-pouzin.gpx']
 ],links:[
-['RideWithGPS — Tain-l’Hermitage → Montélimar','https://ridewithgps.com/routes/56830705'],
+['RideWithGPS — Tain-l’Hermitage → Le Pouzin','https://ridewithgps.com/routes/56830705'],
 ['🚴 ViaRhôna — Tournon / Valence','https://www.viarhona.com/itineraire/tournon-sur-rhone-glun-a-bourg-les-valence-valence'],
-['🚴 ViaRhôna — Valence / La Voulte-sur-Rhône','https://www.viarhona.com/itineraire/valence-a-la-voulte-sur-rhone-par-le-pouzin'],
-['🍽️ Restaurants — Montélimar','https://www.google.com/maps/search/?api=1&query=restaurants+Montelimar'],
-['🛒 Épiceries — Montélimar','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Montelimar'],
-['🏡 Hébergements — Montélimar','https://www.google.com/maps/search/?api=1&query=hebergement+Montelimar']
+['🚴 ViaRhôna — Valence / Le Pouzin','https://www.viarhona.com/itineraire/valence-a-la-voulte-sur-rhone-par-le-pouzin'],
+['🍽️ Restaurants — Le Pouzin','https://www.google.com/maps/search/?api=1&query=restaurants+Le+Pouzin'],
+['🛒 Épiceries — Le Pouzin','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Le+Pouzin'],
+['🏡 Hébergements — Le Pouzin','https://www.google.com/maps/search/?api=1&query=hebergement+Le+Pouzin']
 ]},
-...Array.from({length:7},(_,i)=>({n:i+21,date:`${i+21} septembre 2026`,title:i===6?'Arrivée à Sète':'Étape vélo à préciser',spirit:i===6?'Atteindre la Méditerranée et savourer le chemin parcouru.':'Cette étape sera complétée lorsque le découpage définitif sera confirmé.',pending:i!==6,facts:[['Statut',i===6?'Arrivée prévue':'À compléter'],['Parcours','Voir RideWithGPS']],stops:[['Préparation','Cette journée sera détaillée lorsque le découpage définitif des étapes sera confirmé.']]}))
+{n:21,date:'Lundi 21 septembre 2026',title:'Montélimar → Orange',spirit:'Poursuivre vers le sud avec une étape plus courte et arriver à Orange avec suffisamment de temps pour s’installer tranquillement.',facts:[['Distance','62,6 km'],['Dénivelé positif','271 m'],['Départ','Montélimar'],['Arrivée','Orange']],stops:[
+['Départ — Montélimar','Quitter Montélimar et reprendre l’itinéraire vers le sud en suivant le GPX du Jour 21.'],
+['En route vers Orange','Étape de 62,6 km avec 271 m de dénivelé positif. Garder un rythme confortable et choisir la pause principale selon l’heure de départ et les possibilités rencontrées sur le parcours.'],
+['Arrivée — Orange','Fin de l’étape à Orange. S’installer, sécuriser les deux vélos et profiter du reste de la journée pour les provisions et la préparation de l’étape suivante.']
+],actions:[
+['📤 Ouvrir le GPX du Jour 21','share-gpx','jour-21-montelimar-orange.gpx']
+],links:[
+['🍽️ Restaurants — Orange','https://www.google.com/maps/search/?api=1&query=restaurants+Orange+Vaucluse'],
+['🛒 Épiceries — Orange','https://www.google.com/maps/search/?api=1&query=epicerie+supermarche+Orange+Vaucluse'],
+['🏡 Hébergements — Orange','https://www.google.com/maps/search/?api=1&query=hebergement+Orange+Vaucluse']
+]},
+...Array.from({length:6},(_,i)=>({n:i+22,date:`${i+22} septembre 2026`,title:i===5?'Arrivée à Sète':'Étape vélo à préciser',spirit:i===5?'Atteindre la Méditerranée et savourer le chemin parcouru.':'Cette étape sera complétée lorsque le découpage définitif sera confirmé.',pending:i!==5,facts:[['Statut',i===5?'Arrivée prévue':'À compléter'],['Parcours','Voir RideWithGPS']],stops:[['Préparation','Cette journée sera détaillée lorsque le découpage définitif des étapes sera confirmé.']]}))
 ];
 function route(){const id=(location.hash||'#accueil').slice(1).split('?')[0];document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));(document.getElementById(id)||document.getElementById('accueil')).classList.add('active');window.scrollTo(0,0)}
 function renderDays(){dayList.innerHTML=days.map(d=>`<div class="dayitem ${d.pending?'pending':''}" data-day="${d.n}"><div class="daynum">${d.n}</div><div><b>${d.title}</b><small>${d.date}${d.pending?' · à compléter':''}</small></div></div>`).join('');dayList.onclick=e=>{const x=e.target.closest('[data-day]');if(x){renderDay(+x.dataset.day);location.hash='day'}}}
@@ -264,7 +274,7 @@ async function shareGpx(fileName){
     if(navigator.canShare&&navigator.canShare({files:[file]})){
       await navigator.share({
         files:[file],
-        title:fileName.includes('jour-20')?'Jour 20 — Tain-l’Hermitage → Montélimar':fileName.includes('jour-17')?'Jour 17 — Belleville-en-Beaujolais → Givors':fileName.includes('jour-16')?'Jour 16 — Tournus → Belleville-en-Beaujolais':fileName.includes('jour-15')?'Jour 15 — Chagny → Tournus':fileName.includes('jour-14')?'Jour 14 — Marsannay-la-Côte → Chagny':fileName.includes('jour-13')?'Jour 13 — Boucle dans les vignobles':fileName.includes('jour-11')?'Jour 11 — Dole → Marsannay-la-Côte':fileName.includes('jour-10')?'Jour 10 — Besançon → Dole':fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
+        title:fileName.includes('jour-21')?'Jour 21 — Montélimar → Orange':fileName.includes('jour-20')?'Jour 20 — Tain-l’Hermitage → Le Pouzin':fileName.includes('jour-17')?'Jour 17 — Belleville-en-Beaujolais → Givors':fileName.includes('jour-16')?'Jour 16 — Tournus → Belleville-en-Beaujolais':fileName.includes('jour-15')?'Jour 15 — Chagny → Tournus':fileName.includes('jour-14')?'Jour 14 — Marsannay-la-Côte → Chagny':fileName.includes('jour-13')?'Jour 13 — Boucle dans les vignobles':fileName.includes('jour-11')?'Jour 11 — Dole → Marsannay-la-Côte':fileName.includes('jour-10')?'Jour 10 — Besançon → Dole':fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Aspach-le-Bas → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Aspach-le-Bas':fileName.includes('jour-06')?'Jour 6 — Obernai → Colmar':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Obernai':'Parcours Gare de Strasbourg → Airbnb',
         text:'Ouvrir ce parcours dans RideWithGPS'
       });
     }else{
@@ -289,4 +299,4 @@ document.addEventListener('click',e=>{
 
 function loadNotes(){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');notes.innerHTML=a.map((n,i)=>`<div class="noteitem"><button data-del="${i}">Supprimer</button><b>${escapeHtml(n.t)}</b><p>${escapeHtml(n.x).replace(/\n/g,'<br>')}</p></div>`).join('')||'<p class="muted">Aucune note enregistrée.</p>'}
 function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=2.9.9').then(r=>r.update());
+saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=2.9.11').then(r=>r.update());
