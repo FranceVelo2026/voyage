@@ -36,27 +36,19 @@ const days=[
 ['🍽️ Repas à proximité','À Cernay, plusieurs boulangeries, commerces et solutions à emporter permettent de préparer facilement le repas du soir.'],
 ['🛒 Provisions','Faire les provisions à Cernay pour le soir et le départ du lendemain.']
 ],actions:[['📤 Ouvrir / partager le GPX du jour 7','share-gpx','jour-07-colmar-cernay.gpx']],links:[['GPX - Colmar @ Cernay','https://ridewithgps.com/routes/57036457'],['🥐 Boulangerie-Pâtisserie Hadey — Rouffach (~ km 20)','https://wego.here.com/search/Boulangerie%20P%C3%A2tisserie%20Astrid%20et%20Alexandre%20Hadey%2C%2013%20Rue%20de%20la%20Pr%C3%A9vot%C3%A9%2C%2068250%20Rouffach'],['🥐 Pâtisserie Hincker — Cernay','https://wego.here.com/search/P%C3%A2tisserie%20Hincker%2C%2022%20Rue%20Raymond%20Poincar%C3%A9%2C%2068700%20Cernay'],['🥡 Repas à emporter — Cernay','https://wego.here.com/search/restaurant%20%C3%A0%20emporter%20Cernay%20Haut-Rhin'],['🛒 Épiceries — Cernay','https://wego.here.com/search/%C3%A9picerie%20supermarch%C3%A9%20Cernay%20Haut-Rhin']]},
-{n:8,date:'Mardi 8 septembre 2026',title:'Cernay → L’Isle-sur-le-Doubs',spirit:'Rejoindre la vallée du Doubs et terminer la journée dans une ville offrant tous les services utiles.',facts:[['Distance','74 km'],['Dénivelé positif','Environ 356 m'],['Déjeuner','Montreux-Château ou Bessoncourt'],['Ville étape','L’Isle-sur-le-Doubs']],stops:[
-['Départ — Cernay','Départ directement depuis l’hébergement à Cernay. Le GPX du Jour 8 devra être ajusté au nouveau point de départ avant l’étape.'],
-['🥐 Déjeuner — option 1','Montreux-Château, après environ 20 km. Une première option si vous avez faim après un peu plus d’une heure.'],
-['🥐 Déjeuner — option 2','Bessoncourt, après environ 30 km. Cette option correspond mieux à près de deux heures de vélo avant de manger.'],
-['🚴 Parcours','Le tracé rejoint progressivement la vallée du Doubs jusqu’à L’Isle-sur-le-Doubs.'],
-['🏡 Airbnb possibles — nuit du 8 au 9 septembre','Consulter les liens ci-dessous avec les dates déjà inscrites. Les prix affichés par Airbnb peuvent changer selon la disponibilité.'],
-['Les Bambous — L’Isle-sur-le-Doubs','Logement entier avec cuisine, près des commerces et de la véloroute. Vérifier le prix affiché pour le 8 septembre.'],
-['Le Doubs Cocon — Appenans','Tarif publié : 110 € la nuit en basse saison pour 1 à 4 personnes, plus 60 € de ménage et la taxe de séjour.'],
-['Autres Airbnb du secteur','Comparer les logements disponibles à L’Isle-sur-le-Doubs, Appenans et Longevelle-sur-Doubs.'],
-['🛒 Courses pour le souper','Lidl, ALDI et commerces du centre pour le repas du soir et les provisions du lendemain.'],
-['🍽️ Repas sans cuisiner','Restaurants, pizzerias et plats à emporter dans le centre.'],
-['💊 Services utiles','Pharmacies, gare TER, laverie et commerces accessibles dans la ville.']
-],links:[
-['GPX actuel - à ajuster pour départ Cernay','https://ridewithgps.com/routes/56198693?privacy_code=2fJjqL8UcjNTlJJaEjTVDudYrXj5NtFl'],
-['🏡 Airbnb — 8 au 9 septembre 2026','https://www.airbnb.fr/s/L%27Isle~sur~le~Doubs--France/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&date_picker_type=calendar&checkin=2026-09-08&checkout=2026-09-09&adults=2'],
-['🏡 Les Bambous — Airbnb','https://www.airbnb.fr/rooms/1332783179859754457?check_in=2026-09-08&check_out=2026-09-09&guests=2&adults=2'],
-['🏡 Le Doubs Cocon — tarifs','https://www.ledoubscocon.com/ta'],
-['🥐 Boulangeries — Montreux-Château','https://wego.here.com/search/boulangerie%20Montreux-Ch%C3%A2teau'],
-['🥐 Boulangeries — Bessoncourt','https://wego.here.com/search/boulangerie%20Bessoncourt'],
-['🛒 Épiceries — L’Isle-sur-le-Doubs','https://wego.here.com/search/%C3%A9picerie%20supermarch%C3%A9%20L%27Isle-sur-le-Doubs'],
-['🥡 Repas à emporter','https://wego.here.com/search/restaurant%20%C3%A0%20emporter%20L%27Isle-sur-le-Doubs']
+{n:8,date:'Mardi 8 septembre 2026',title:'Cernay → Colombier-Fontaine',spirit:'Quitter l’Alsace, traverser le secteur de Montbéliard et terminer l’étape à Colombier-Fontaine.',facts:[['Distance','69 km'],['Dénivelé positif','≈ 353 m'],['Pause pâtisserie','Dannemarie — vers le km 25'],['Arrivée','Colombier-Fontaine']],stops:[
+['Départ — Cernay','Départ depuis Cernay en suivant le nouveau GPX du Jour 8.'],
+['🥐 Pause pâtisserie — Dannemarie','La Meunière, 13 place de l’Hôtel de Ville, est une boulangerie-pâtisserie et salon de thé ouverte le mardi. Elle constitue une halte pratique après environ 25 km.'],
+['🚴 Vers Montbéliard','Poursuivre le tracé en direction de Montbéliard en restant sur le GPX.'],
+['🛒 Souper — Montbéliard','Acheter le souper à l’Intermarché CONTACT, 15 rue du Port. Le magasin est tout près du tracé et évite un détour important avec les vélos.'],
+['⏰ Intermarché — horaire du mardi','Ouvert de 8 h 30 à 19 h 30. Faire les achats avant de poursuivre vers Colombier-Fontaine.'],
+['🚴 Fin d’étape','Après les courses, reprendre le GPX vers Colombier-Fontaine.'],
+['🏁 Arrivée — Colombier-Fontaine','Fin du Jour 8 à Colombier-Fontaine.']
+],actions:[['📤 Ouvrir / partager le GPX du jour 8','share-gpx','jour-08-cernay-colombier-fontaine.gpx']],links:[
+['GPX - Cernay @ Colombier-Fontaine','https://ridewithgps.com/routes/57052160'],
+['🥐 La Meunière — Dannemarie (~ km 25)','https://wego.here.com/search/La%20Meuni%C3%A8re%2C%2013%20Place%20de%20l%27H%C3%B4tel%20de%20Ville%2C%2068210%20Dannemarie'],
+['🛒 Intermarché CONTACT — Montbéliard','https://wego.here.com/search/Intermarch%C3%A9%20CONTACT%2C%2015%20Rue%20du%20Port%2C%2025200%20Montb%C3%A9liard'],
+['📍 Colombier-Fontaine','https://wego.here.com/search/Colombier-Fontaine%2C%20France']
 ]},
 {n:9,date:'Mercredi 9 septembre 2026',title:"L’Isle-sur-le-Doubs → Besançon",spirit:'Suivre la vallée du Doubs jusqu’à Besançon et profiter d’une arrivée progressive au cœur de la ville.',facts:[['Distance','68 km'],['Dénivelé positif','471 m'],['Pause déjeuner possible','Clerval ou Baume-les-Dames'],['Hébergement','Airbnb à réserver']],stops:[
 ['Départ — L’Isle-sur-le-Doubs','Le GPX commence à L’Isle-sur-le-Doubs et suit la vallée en direction de Besançon.'],
@@ -256,7 +248,7 @@ async function shareGpx(fileName){
     if(navigator.canShare&&navigator.canShare({files:[file]})){
       await navigator.share({
         files:[file],
-        title:fileName.includes('jour-21')?'Jour 21 — Montélimar → Orange':fileName.includes('jour-20')?'Jour 20 — Tain-l’Hermitage → Montélimar':fileName.includes('jour-17')?'Jour 17 — Belleville-en-Beaujolais → Givors':fileName.includes('jour-16')?'Jour 16 — Tournus → Belleville-en-Beaujolais':fileName.includes('jour-15')?'Jour 15 — Chagny → Tournus':fileName.includes('jour-14')?'Jour 14 — Marsannay-la-Côte → Chagny':fileName.includes('jour-13')?'Jour 13 — Boucle dans les vignobles':fileName.includes('jour-11')?'Jour 11 — Dole → Marsannay-la-Côte':fileName.includes('jour-10')?'Jour 10 — Besançon → Dole':fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Cernay → L’Isle-sur-le-Doubs':fileName.includes('jour-07')?'Jour 7 — Colmar → Cernay':fileName.includes('jour-06')?'Jour 6 — Barr → Colmar':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Barr':'Parcours Gare de Strasbourg → Airbnb',
+        title:fileName.includes('jour-21')?'Jour 21 — Montélimar → Orange':fileName.includes('jour-20')?'Jour 20 — Tain-l’Hermitage → Montélimar':fileName.includes('jour-17')?'Jour 17 — Belleville-en-Beaujolais → Givors':fileName.includes('jour-16')?'Jour 16 — Tournus → Belleville-en-Beaujolais':fileName.includes('jour-15')?'Jour 15 — Chagny → Tournus':fileName.includes('jour-14')?'Jour 14 — Marsannay-la-Côte → Chagny':fileName.includes('jour-13')?'Jour 13 — Boucle dans les vignobles':fileName.includes('jour-11')?'Jour 11 — Dole → Marsannay-la-Côte':fileName.includes('jour-10')?'Jour 10 — Besançon → Dole':fileName.includes('jour-09')?'Jour 9 — L’Isle-sur-le-Doubs → Besançon':fileName.includes('jour-08')?'Jour 8 — Cernay → Colombier-Fontaine':fileName.includes('jour-07')?'Jour 7 — Colmar → Cernay':fileName.includes('jour-06')?'Jour 6 — Barr → Colmar':fileName.includes('jour-05')?'Jour 5 — Strasbourg → Barr':'Parcours Gare de Strasbourg → Airbnb',
         text:'Ouvrir ce parcours dans RideWithGPS'
       });
     }else{
