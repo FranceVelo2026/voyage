@@ -47,8 +47,8 @@ const days=[
 ['🏁 Arrivée — Colombier-Fontaine','Fin du Jour 8 à Colombier-Fontaine.']
 ],links:[
 ['GPX - Cernay @ Colombier-Fontaine','https://ridewithgps.com/routes/57052160'],
-['🥐 La Meunière — Dannemarie (~ km 25)','https://share.here.com/r/mylocation/47.631378,7.120134,La%20Meuni%C3%A8re%20-%2013%20Place%20de%20l%E2%80%99H%C3%B4tel%20de%20Ville%2C%20Dannemarie?m=b'],
-['🥐 La Fontaine aux Délices — Montreux-Château (~ km 34,4)','https://share.here.com/r/mylocation/47.609193,7.003573,La%20Fontaine%20aux%20D%C3%A9lices%20-%2014%20Rue%20du%20G%C3%A9n%C3%A9ral%20de%20Gaulle%2C%20Montreux-Ch%C3%A2teau?m=b'],
+['🚲 GPX km 24,5 → La Meunière','https://share.here.com/r/47.635600,7.115580,GPX%20km%2024%2C5/47.631378,7.120134,La%20Meuni%C3%A8re%20-%2013%20Place%20de%20l%E2%80%99H%C3%B4tel%20de%20Ville%2C%20Dannemarie?m=b'],
+['🚲 GPX km 34,4 → La Fontaine aux Délices','https://share.here.com/r/47.603520,7.010970,GPX%20km%2034%2C4/47.609193,7.003573,La%20Fontaine%20aux%20D%C3%A9lices%20-%2014%20Rue%20du%20G%C3%A9n%C3%A9ral%20de%20Gaulle%2C%20Montreux-Ch%C3%A2teau?m=b'],
 ['🛒 Intermarché CONTACT — Montbéliard','https://share.here.com/r/mylocation/47.5036703,6.7922554,Intermarch%C3%A9%20CONTACT%20-%2015%20Rue%20du%20Port%2C%20Montb%C3%A9liard?m=b'],
 ['📍 Colombier-Fontaine','https://share.here.com/r/mylocation/47.452240,6.690100,Colombier-Fontaine?m=b']
 ]},
