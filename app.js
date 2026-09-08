@@ -52,24 +52,17 @@ const days=[
 ['🛒 Intermarché CONTACT — Montbéliard','https://share.here.com/r/mylocation/47.5036703,6.7922554,Intermarch%C3%A9%20CONTACT%20-%2015%20Rue%20du%20Port%2C%20Montb%C3%A9liard?m=b'],
 ['📍 Colombier-Fontaine','https://share.here.com/r/mylocation/47.452240,6.690100,Colombier-Fontaine?m=b']
 ]},
-{n:9,date:'Mercredi 9 septembre 2026',title:"L’Isle-sur-le-Doubs → Besançon",spirit:'Suivre la vallée du Doubs jusqu’à Besançon et profiter d’une arrivée progressive au cœur de la ville.',facts:[['Distance','68 km'],['Dénivelé positif','471 m'],['Pause déjeuner possible','Clerval ou Baume-les-Dames'],['Hébergement','Airbnb à réserver']],stops:[
-['Départ — L’Isle-sur-le-Doubs','Le GPX commence à L’Isle-sur-le-Doubs et suit la vallée en direction de Besançon.'],
-['🥐 Pause déjeuner — option 1','Clerval offre une première possibilité de pause. Vérifiez les boulangeries et leurs heures d’ouverture le jour même.'],
-['🥐 Pause déjeuner — option 2','Baume-les-Dames constitue une excellente pause plus tardive, avec davantage de commerces et de services.'],
-['🚴 Vallée du Doubs','La majeure partie de l’étape suit le corridor du Doubs, avec un parcours favorable au cyclotourisme.'],
-['🏡 Hébergement','L’Airbnb n’est pas encore réservé. Privilégier un logement permettant de ranger les deux vélos en sécurité et situé près du centre ou du parcours.'],
-['🍽️ Repas à proximité','Besançon offre de nombreux restaurants, traiteurs et commerces pour un repas à emporter.'],
-['🛒 Épicerie / marché','Rechercher une épicerie ou un commerce alimentaire près de l’hébergement une fois celui-ci réservé.'],
-['⭐ À ne pas manquer','L’arrivée le long du Doubs et le centre historique de Besançon sont les principaux attraits de la fin d’étape.'],
-['💡 Conseil d’Alice','Attendez d’avoir choisi l’hébergement avant de modifier la fin du GPX : vous pourrez alors faire terminer le trajet directement à l’Airbnb.']
+{n:9,date:'Mercredi 9 septembre 2026',title:'Colombier-Fontaine → Roche-lez-Beaupré',spirit:'Suivre la vallée du Doubs vers Baume-les-Dames puis poursuivre jusqu’à Roche-lez-Beaupré, en gardant une pause pâtisserie facile sur ou près du GPX.',facts:[['Distance','71 km'],['Dénivelé positif','585 m'],['Pause pâtisserie','Pays-de-Clerval ou Baume-les-Dames'],['Arrivée','Roche-lez-Beaupré']],stops:[
+['Départ — Colombier-Fontaine','Départ depuis Colombier-Fontaine en suivant le nouveau GPX du Jour 9.'],
+['🥐 Option 1 — L’Épi d’Or, Pays-de-Clerval','Vers le km 27,6. Boulangerie-pâtisserie au 9 avenue Gaston Renaud, pratiquement sur le GPX (environ 15 à 20 m). Ouverte le mercredi de 6 h à 13 h puis de 16 h à 18 h 30.'],
+['🥐 Option km 30–45 — Le Fournil d’Anroz','Vers le km 43,6, au 13 faubourg d’Anroz à Baume-les-Dames. Compter environ 500 m entre le GPX et la boulangerie. Ouverte le mercredi de 6 h à 19 h. C’est la meilleure halte trouvée dans la fenêtre km 30 à 45.'],
+['🚴 Vallée du Doubs','Poursuivre ensuite le tracé en direction de Roche-lez-Beaupré.'],
+['🏁 Arrivée — Roche-lez-Beaupré','Fin du Jour 9 à Roche-lez-Beaupré.']
 ],links:[
-['GPX - L’Isle-sur-le-Doubs @ Besançon','https://ridewithgps.com/routes/56206517'],
-['🏡 Demander à Alice de trouver un Airbnb','https://chatgpt.com/'],
-['🥐 Boulangeries — Clerval','https://wego.here.com/search/boulangerie%20Clerval'],
-['🥐 Boulangeries — Baume-les-Dames','https://wego.here.com/search/boulangerie%20Baume-les-Dames'],
-['🥡 Repas à emporter — Besançon','https://wego.here.com/search/restaurant%20%C3%A0%20emporter%20Besan%C3%A7on'],
-['🛒 Épiceries et marchés — Besançon','https://wego.here.com/search/%C3%A9picerie%20march%C3%A9%20Besan%C3%A7on'],
-['📍 Centre de Besançon','https://wego.here.com/search/centre%20historique%20Besan%C3%A7on']
+['GPX - Colombier-Fontaine @ Roche-lez-Beaupré','https://ridewithgps.com/routes/57070393'],
+['🚲 GPX km 27,6 → L’Épi d’Or','https://share.here.com/r/47.392790,6.493870,GPX%20km%2027%2C6/47.392701,6.493706,L%27%C3%89pi%20d%27Or%20-%209%20Avenue%20Gaston%20Renaud%2C%20Pays-de-Clerval?m=b'],
+['🚲 GPX km 43,6 → Le Fournil d’Anroz','https://share.here.com/r/47.350720,6.373460,GPX%20km%2043%2C6/47.350732,6.366820,Le%20Fournil%20d%27Anroz%20-%2013%20Faubourg%20d%27Anroz%2C%20Baume-les-Dames?m=b'],
+['📍 Roche-lez-Beaupré','https://share.here.com/r/mylocation/47.276530,6.115950,Roche-lez-Beaupr%C3%A9?m=b']
 ]},
 {n:10,date:'Jeudi 10 septembre 2026',title:'Besançon → Dole',spirit:'Suivre la vallée du Doubs jusqu’à Dole en gardant un rythme confortable avant l’arrivée à Dijon le lendemain.',facts:[['Distance','58 km'],['Dénivelé positif','413 m'],['Pause déjeuner possible','Saint-Vit ou Ranchot'],['Hébergement','Airbnb à réserver']],stops:[
 ['Départ — Besançon','Le parcours commence à Besançon et suit progressivement la vallée du Doubs en direction de Dole.'],
@@ -246,4 +239,4 @@ document.addEventListener('click',e=>{
 
 function loadNotes(){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');notes.innerHTML=a.map((n,i)=>`<div class="noteitem"><button data-del="${i}">Supprimer</button><b>${escapeHtml(n.t)}</b><p>${escapeHtml(n.x).replace(/\n/g,'<br>')}</p></div>`).join('')||'<p class="muted">Aucune note enregistrée.</p>'}
 function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=7.4',{updateViaCache:'none'}).then(r=>r.update());
+saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=8.0',{updateViaCache:'none'}).then(r=>r.update());
