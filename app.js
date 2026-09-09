@@ -64,24 +64,19 @@ const days=[
 ['🚲 GPX km 43,6 → Le Fournil d’Anroz','https://share.here.com/r/47.350720,6.373460,GPX%20km%2043%2C6/47.350732,6.366820,Le%20Fournil%20d%27Anroz%20-%2013%20Faubourg%20d%27Anroz%2C%20Baume-les-Dames?m=b'],
 ['📍 Roche-lez-Beaupré','https://share.here.com/r/mylocation/47.276530,6.115950,Roche-lez-Beaupr%C3%A9?m=b']
 ]},
-{n:10,date:'Jeudi 10 septembre 2026',title:'Besançon → Dole',spirit:'Suivre la vallée du Doubs jusqu’à Dole en gardant un rythme confortable avant l’arrivée à Dijon le lendemain.',facts:[['Distance','58 km'],['Dénivelé positif','413 m'],['Pause déjeuner possible','Saint-Vit ou Ranchot'],['Hébergement','Airbnb à réserver']],stops:[
-['Départ — Besançon','Le parcours commence à Besançon et suit progressivement la vallée du Doubs en direction de Dole.'],
-['🥐 Pause déjeuner — option 1','Saint-Vit offre une première possibilité de pause avec boulangeries et commerces. Vérifier les heures d’ouverture le jour même.'],
-['🥐 Pause déjeuner — option 2','Ranchot constitue une option plus tardive, pratique si vous préférez rouler plus longtemps avant de manger.'],
-['🚴 Vallée du Doubs','L’étape suit en grande partie le corridor du Doubs, sur un tracé favorable au cyclotourisme.'],
-['🏡 Hébergement','L’Airbnb n’est pas encore réservé. Privilégier un logement près du centre ou du parcours, avec un endroit sécuritaire pour les deux vélos.'],
-['🍽️ Repas à proximité','Dole offre des restaurants, traiteurs et commerces pour un repas sur place ou à emporter.'],
-['🛒 Épicerie / marché','Le centre de Dole et ses environs offrent plusieurs commerces alimentaires pour le souper et les provisions du lendemain.'],
-['⭐ À ne pas manquer','Le canal des Tanneurs et le centre historique de Dole sont les principaux attraits de la fin d’étape.'],
-['💡 Conseil d’Alice','Une fois l’hébergement réservé, ajuster au besoin les derniers kilomètres du GPX pour terminer directement à l’Airbnb.']
+{n:10,date:'Jeudi 10 septembre 2026',title:'Roche-lez-Beaupré → Dole',spirit:'Poursuivre vers Dole en suivant la vallée du Doubs et l’EuroVelo 6, avec une halte pâtisserie facile à intégrer au parcours.',facts:[['Distance','≈ 69 km'],['Dénivelé positif','À confirmer'],['Pause pâtisserie','Fraisans ou Ranchot'],['Arrivée','Dole']],stops:[
+['Départ — Roche-lez-Beaupré','Départ depuis Roche-lez-Beaupré sur le nouveau tracé du Jour 10 en direction de Dole.'],
+['🥐 La Petite Symphonie — Fraisans','Vers le km 44,9. Boulangerie-pâtisserie au 1 place de la Liberté, ouverte le jeudi de 6 h à 13 h. Elle se trouve à environ 900 m du GPX : le bouton HERE WeGo lance donc un véritable itinéraire vélo depuis le point du parcours le plus proche.'],
+['🥐 Boulangerie Redoutey — Ranchot','Vers le km 47,6. Boulangerie-pâtisserie au 21 Grande Rue, ouverte le jeudi de 6 h 30 à 13 h puis de 16 h à 19 h. Elle est pratiquement sur la véloroute; le lien ouvre directement sa localisation dans HERE WeGo.'],
+['🚴 Vallée du Doubs / EuroVelo 6','L’étape suit en grande partie le Doubs et son corridor cyclable jusqu’à Dole.'],
+['🏁 Arrivée — Dole','Fin du nouveau GPX à Dole.'],
+['🏡 Hébergement','Privilégier un logement près du centre ou du parcours, avec un endroit sécuritaire pour les deux vélos.'],
+['🍽️ Repas et provisions','Dole offre plusieurs commerces, traiteurs et restaurants dans le centre pour le souper et les provisions du lendemain.']
 ],links:[
-['GPX - Besançon @ Dole','https://ridewithgps.com/routes/56222242'],
-['🏡 Demander à Alice de trouver un Airbnb','https://chatgpt.com/'],
-['🥐 Boulangeries — Saint-Vit','https://wego.here.com/search/boulangerie%20Saint-Vit'],
-['🥐 Boulangeries — Ranchot','https://wego.here.com/search/boulangerie%20Ranchot'],
-['🥡 Repas à emporter — Dole','https://wego.here.com/search/restaurant%20%C3%A0%20emporter%20Dole'],
-['🛒 Épiceries et marchés — Dole','https://wego.here.com/search/%C3%A9picerie%20march%C3%A9%20Dole'],
-['📍 Centre historique de Dole','https://wego.here.com/search/centre%20historique%20Dole']
+['GPX - Roche-lez-Beaupré @ Dole','https://ridewithgps.com/routes/57084400'],
+['🚲 GPX km 44,9 → La Petite Symphonie','https://share.here.com/r/47.156660,5.756750,GPX%20km%2044%2C9/47.149340,5.762000,La%20Petite%20Symphonie%20-%201%20Place%20de%20la%20Libert%C3%A9%2C%20Fraisans?m=b'],
+['📍 Boulangerie Redoutey — HERE WeGo','https://share.here.com/l/47.149010,5.724490,Boulangerie%20Redoutey%20-%2021%20Grande%20Rue%2C%20Ranchot?z=18'],
+['📍 Arrivée — Dole','https://share.here.com/l/47.095140,5.497100,Dole?z=15']
 ]},
 {n:11,date:'Vendredi 11 septembre 2026',title:'Dole → Marsannay-la-Côte',spirit:'Rejoindre la Côte de Nuits et s’installer aux portes de Dijon pour profiter ensuite de la ville et des vignobles sans les bagages.',facts:[['Distance','56 km'],['Dénivelé positif','386 m'],['Pause déjeuner possible','Auxonne ou Genlis'],['Hébergement','Chambre d’hôte à confirmer — Marsannay-la-Côte']],stops:[
 ['Départ — Dole','Le parcours commence à Dole et prend la direction de Marsannay-la-Côte, au sud de Dijon.'],
@@ -239,4 +234,4 @@ document.addEventListener('click',e=>{
 
 function loadNotes(){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');notes.innerHTML=a.map((n,i)=>`<div class="noteitem"><button data-del="${i}">Supprimer</button><b>${escapeHtml(n.t)}</b><p>${escapeHtml(n.x).replace(/\n/g,'<br>')}</p></div>`).join('')||'<p class="muted">Aucune note enregistrée.</p>'}
 function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=8.1',{updateViaCache:'none'}).then(r=>r.update());
+saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=9.0',{updateViaCache:'none'}).then(r=>r.update());
