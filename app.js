@@ -78,23 +78,18 @@ const days=[
 ['📍 Boulangerie Redoutey — HERE WeGo','https://share.here.com/l/47.149010,5.724490,Boulangerie%20Redoutey%20-%2021%20Grande%20Rue%2C%20Ranchot?z=18'],
 ['📍 Arrivée — Dole','https://share.here.com/l/47.095140,5.497100,Dole?z=15']
 ]},
-{n:11,date:'Vendredi 11 septembre 2026',title:'Dole → Marsannay-la-Côte',spirit:'Rejoindre la Côte de Nuits et s’installer aux portes de Dijon pour profiter ensuite de la ville et des vignobles sans les bagages.',facts:[['Distance','56 km'],['Dénivelé positif','386 m'],['Pause déjeuner possible','Auxonne ou Genlis'],['Hébergement','Chambre d’hôte à confirmer — Marsannay-la-Côte']],stops:[
-['Départ — Dole','Le parcours commence à Dole et prend la direction de Marsannay-la-Côte, au sud de Dijon.'],
-['🥐 Pause déjeuner — option 1','Auxonne constitue une bonne première option pour une pause, avec des boulangeries et commerces. Vérifier les heures d’ouverture le jour même.'],
-['🥐 Pause déjeuner — option 2','Genlis offre une possibilité plus tardive si vous préférez rouler davantage avant de manger.'],
-['🏡 Arrivée et hébergement','La chambre d’hôte à Marsannay-la-Côte n’est pas encore confirmée. Une fois la réservation obtenue, vérifier l’accès exact et la possibilité de ranger les deux vélos en sécurité.'],
-['🍽️ Repas à proximité','Marsannay-la-Côte et le sud de Dijon offrent des restaurants, traiteurs et commerces pour un repas sur place ou à emporter.'],
-['🛒 Épicerie / marché','Des commerces alimentaires sont accessibles à Marsannay-la-Côte et dans les secteurs voisins pour le souper et les provisions.'],
-['⭐ À ne pas manquer','Marsannay-la-Côte marque l’entrée de la Route des Grands Crus et constitue une base pratique pour la découverte de Dijon le lendemain.'],
-['💡 Conseil d’Alice','Une fois la chambre d’hôte confirmée, ajuster au besoin les derniers kilomètres du GPX afin de terminer directement à l’hébergement.']
+{n:11,date:'Vendredi 11 septembre 2026',title:'Dole → Marsannay-la-Côte',spirit:'Une étape plus courte vers la Côte de Nuits, avec une pause pâtisserie presque exactement à mi-parcours à Brazey-en-Plaine.',facts:[['Distance','≈ 54 km'],['Dénivelé positif','386 m'],['Pause pâtisserie','Petit Crouton — Brazey-en-Plaine (~ km 28,3)'],['Arrivée','3 rue Neuve, Marsannay-la-Côte']],stops:[
+['Départ — Dole','Départ de Dole sur le GPX corrigé du Jour 11 en direction de Marsannay-la-Côte. Le nouveau tracé RideWithGPS mesure environ 54,1 km.'],
+['🥐 Pause pâtisserie — Petit Crouton, Brazey-en-Plaine','Vers le km 28,3, donc pratiquement à mi-parcours. Boulangerie-pâtisserie au 4 route de Dijon, 21470 Brazey-en-Plaine. Elle est ouverte le vendredi de 6 h à 19 h. Le centre de Brazey se trouve à environ 650 à 700 m du point le plus proche du GPX : c’est une petite déviation raisonnable pour la pause.'],
+['🚴 Reprise vers Marsannay-la-Côte','Après Brazey-en-Plaine, reprendre le GPX corrigé et poursuivre vers Marsannay-la-Côte.'],
+['🏡 Arrivée — 3 rue Neuve','Arrivée au 3 rue Neuve, 21160 Marsannay-la-Côte. Cet hébergement est prévu pour trois nuits : vendredi 11, samedi 12 et dimanche 13 septembre.'],
+['🍽️ Repas et provisions','Pour le soir, plusieurs commerces et restaurants sont accessibles à Marsannay-la-Côte; les grandes surfaces se trouvent dans la zone commerciale au nord-est du bourg.'],
+['⭐ Repère','Marsannay-la-Côte est votre base pour les visites des vignobles le samedi et pour Dijon le dimanche.']
 ],links:[
-['GPX - Dole @ Marsannay-la-Côte','https://ridewithgps.com/routes/56267399'],
-['🏡 Hébergement à Marsannay-la-Côte — confirmation en attente','https://wego.here.com/search/chambre%20d%20hote%20Marsannay-la-Cote'],
-['🥐 Boulangeries — Auxonne','https://wego.here.com/search/boulangerie%20Auxonne'],
-['🥐 Boulangeries — Genlis','https://wego.here.com/search/boulangerie%20Genlis'],
-['🥡 Repas à emporter — Marsannay-la-Côte','https://wego.here.com/search/restaurant%20a%20emporter%20Marsannay-la-Cote'],
-['🛒 Épiceries et marchés — Marsannay-la-Côte','https://wego.here.com/search/epicerie%20marche%20Marsannay-la-Cote'],
-['📍 Centre de Marsannay-la-Côte','https://wego.here.com/search/centre%20Marsannay-la-Cote']
+['GPX RideWithGPS — Dole → Marsannay-la-Côte','https://ridewithgps.com/routes/57098017'],
+['🥐 Petit Crouton — HERE WeGo','https://wego.here.com/search/Petit%20Crouton%2C%204%20Route%20de%20Dijon%2C%2021470%20Brazey-en-Plaine'],
+['🏡 Hébergement — 3 rue Neuve','https://wego.here.com/search/3%20Rue%20Neuve%2C%2021160%20Marsannay-la-C%C3%B4te'],
+['📍 Centre de Marsannay-la-Côte','https://wego.here.com/search/Marsannay-la-C%C3%B4te']
 ]},
 {n:12,date:'Samedi 12 septembre 2026',title:'Découverte de Dijon',spirit:'Prendre le temps de découvrir Dijon à pied, en gardant la liberté de choisir les activités selon votre énergie et la météo.',facts:[['Type','Journée de visite'],['Déplacement','Marsannay-la-Côte → Dijon : à vélo ou en Uber, puis à pied'],['Rythme','Libre et sans horaire rigide'],['Hébergement','Deuxième nuit à Marsannay-la-Côte']],stops:[
 ['Transport vers Dijon','Commencer la journée par le déplacement de Marsannay-la-Côte vers le centre de Dijon. Deux options restent ouvertes : faire le trajet à vélo ou prendre un Uber. Vous déciderez sur place selon la météo, votre énergie et la façon dont vous souhaitez organiser le retour.'],
@@ -234,4 +229,4 @@ document.addEventListener('click',e=>{
 
 function loadNotes(){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');notes.innerHTML=a.map((n,i)=>`<div class="noteitem"><button data-del="${i}">Supprimer</button><b>${escapeHtml(n.t)}</b><p>${escapeHtml(n.x).replace(/\n/g,'<br>')}</p></div>`).join('')||'<p class="muted">Aucune note enregistrée.</p>'}
 function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=9.0',{updateViaCache:'none'}).then(r=>r.update());
+saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=11.0',{updateViaCache:'none'}).then(r=>r.update());
