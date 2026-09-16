@@ -142,45 +142,34 @@ const days=[
 ['🍽️ Restaurants — Mâcon','https://wego.here.com/search/restaurants%20Macon'],
 ['🛒 Épiceries — Mâcon','https://wego.here.com/search/epicerie%20supermarche%20Macon']
 ]},
-{n:16,date:'Mercredi 16 septembre 2026',title:'Tournus → Belleville-en-Beaujolais',spirit:'Poursuivre tranquillement le long de la Saône, faire une vraie pause à Mâcon et rejoindre une ville-étape bien équipée aux portes du Beaujolais.',facts:[['Distance','62 km'],['Dénivelé positif','324 m'],['Pause pâtisserie','Mâcon — vers le km 33'],['Hébergement','À confirmer — Belleville-en-Beaujolais']],stops:[
-['Départ — Tournus','Quitter Tournus et reprendre la Voie Bleue vers le sud. Le parcours longe la Saône sur une étape généralement roulante, avec les vélos chargés.'],
-['Mâcon — vers le km 33','Après environ une heure et demie à deux heures de vélo, faire la principale pause gourmande de la journée dans le centre de Mâcon. Profiter de cet arrêt pour une pâtisserie, remplir les bouteilles et acheter un sandwich ou quelques provisions au besoin.',[['🥐 Pâtisseries et boulangeries — Mâcon','https://wego.here.com/search/patisserie%20boulangerie%20centre%20Macon'],['📍 Centre de Mâcon','https://wego.here.com/search/centre%20ville%20Macon']]],
-['Voie Bleue et vallée de la Saône','Après Mâcon, poursuivre vers le sud le long de la Saône. Garder un rythme régulier et profiter des haltes au bord de l’eau sans multiplier les grands détours.'],
-['Thoissey et secteur de Saint-Didier-sur-Chalaronne','Ce secteur constitue une possibilité de pause plus tardive pour l’eau, les toilettes ou un ravitaillement rapide avant les derniers kilomètres.'],
-['Arrivée — Belleville-en-Beaujolais','Quitter légèrement le tracé principal pour rejoindre l’hébergement à Belleville-en-Beaujolais. La ville offre davantage de choix pour dormir, souper et faire les provisions que les petites communes voisines. Vérifier le rangement sécuritaire des deux vélos.']
+{n:16,date:'Mercredi 16 septembre 2026',title:'Mâcon → Givors Ville (train) → Condrieu',spirit:'Éviter la traversée problématique de Lyon en train, puis reprendre la ViaRhôna à Givors pour une courte étape jusqu’à Condrieu.',facts:[['Train','Mâcon → Lyon → Givors Ville'],['Vélo','≈ 25 km'],['Dénivelé positif','À confirmer'],['Arrivée','Condrieu']],stops:[
+['Départ — Mâcon Ville','Rejoindre la gare de Mâcon Ville avec les vélos pour prendre le TER vers Lyon Part-Dieu.'],
+['TER 17825 — Mâcon → Lyon Part-Dieu','Départ de Mâcon Ville à 8 h 56 et arrivée à Lyon Part-Dieu à 9 h 44. Les vélos voyagent dans les espaces prévus à bord, dans la limite des places disponibles.'],
+['Correspondance — Lyon Part-Dieu','Correspondance de 10 minutes. Rejoindre directement la voie du TER suivant avec les vélos.'],
+['TER 86714 — Lyon Part-Dieu → Givors Ville','Départ de Lyon Part-Dieu à 9 h 54 et arrivée à Givors Ville à 10 h 10.'],
+['Givors Ville → Condrieu à vélo','Reprendre les vélos à Givors Ville et suivre la ViaRhôna vers le sud jusqu’à Condrieu. Le GPX de la journée contient uniquement la portion cyclable Givors → Condrieu, soit environ 25 km.'],
+['Arrivée — Condrieu','Installation à Condrieu. Épiceries, restaurants et domaines viticoles sont disponibles à proximité pour profiter du reste de la journée.']
 ],links:[
-['GPX - Tournus @ Belleville-en-Beaujolais','https://ridewithgps.com/routes/56273559'],
-['🥐 Pâtisseries — Mâcon','https://wego.here.com/search/patisserie%20boulangerie%20centre%20Macon'],
-['🍽️ Restaurants — Belleville-en-Beaujolais','https://wego.here.com/search/restaurants%20Belleville-en-Beaujolais'],
-['🛒 Épiceries — Belleville-en-Beaujolais','https://wego.here.com/search/epicerie%20supermarche%20Belleville-en-Beaujolais'],
-['🏡 Hébergements — Belleville-en-Beaujolais','https://wego.here.com/search/hebergement%20Belleville-en-Beaujolais']
+['GPX - Givors @ Condrieu','jour-16-macon-train-givors-condrieu.gpx'],
+['🚆 Gare de Mâcon Ville','https://wego.here.com/search/Gare%20de%20Macon%20Ville'],
+['🚆 Gare de Givors Ville','https://wego.here.com/search/Gare%20de%20Givors%20Ville'],
+['🍽️ Restaurants — Condrieu','https://wego.here.com/search/restaurants%20Condrieu'],
+['🛒 Épiceries — Condrieu','https://wego.here.com/search/epicerie%20Condrieu']
 ]},
-{n:17,date:'Jeudi 17 septembre 2026',title:'Belleville-en-Beaujolais → Givors',spirit:'Traverser l’agglomération lyonnaise sans s’y arrêter et contourner entièrement le tronçon déconseillé de la ViaRhôna.',facts:[['Distance','76 km'],['Dénivelé positif','438 m'],['Pause pâtisserie','Neuville-sur-Saône — vers le km 35'],['Hébergement','À confirmer — Givors']],stops:[
-['Départ — Belleville-en-Beaujolais','Quitter Belleville-en-Beaujolais et reprendre la vallée de la Saône vers le sud. Cette journée est plus longue que les deux précédentes; partir suffisamment tôt et conserver un rythme régulier.'],
-['Trévoux — vers le km 24','Traverser le secteur de Trévoux sans grand détour. Cette ancienne ville parlementaire constitue une première possibilité de courte pause pour l’eau ou les toilettes.'],
-['Neuville-sur-Saône — vers le km 35','Faire ici la principale pause pâtisserie de la journée, après environ une heure et demie à deux heures de vélo. Profiter de l’arrêt pour remplir les bouteilles et acheter un sandwich ou des provisions pour la suite.',[['🥐 Pâtisseries et boulangeries — Neuville-sur-Saône','https://wego.here.com/search/patisserie%20boulangerie%20Neuville-sur-Saone'],['📍 Centre de Neuville-sur-Saône','https://wego.here.com/search/centre%20Neuville-sur-Saone']]],
-['Traversée de Lyon — sans arrêt touristique','Suivre le tracé à travers l’agglomération lyonnaise sans programmer de visite, puisque vous aurez déjà séjourné à Lyon au début du voyage. Rester particulièrement attentifs aux intersections, aux piétons et à la circulation urbaine.'],
-['Contournement sécuritaire par l’ouest','À partir d’Oullins–Pierre-Bénite, le GPX quitte le tracé officiel problématique et passe par Saint-Genis-Laval, Brignais, Vourles, Millery et Grigny-sur-Rhône. Cette variante évite complètement le mauvais tronçon de la ViaRhôna par Vernaison, Ternay et Chasse-sur-Rhône. Ne pas suivre les panneaux ViaRhôna s’ils contredisent le GPX dans ce secteur.'],
-['L’Atelier Vélo — secteur sud de Lyon','Le GPX comprend un point de repère pour L’Atelier Vélo. Le conserver comme solution de dépannage éventuelle, sans prévoir un arrêt systématique.'],
-['Arrivée — Givors','Rejoindre Givors par Grigny-sur-Rhône. La ville constitue une étape pratique au-delà de Lyon, avec gare, commerces et services. Vérifier à l’hébergement qu’un rangement sécuritaire est prévu pour les deux vélos.']
+{n:17,date:'Jeudi 17 septembre 2026',title:'Condrieu → Tain-l’Hermitage',spirit:'Suivre la vallée du Rhône sur une étape plus courte et confortable jusqu’aux coteaux de l’Hermitage.',facts:[['Distance','≈ 55 km'],['Dénivelé positif','À confirmer'],['Parcours','ViaRhôna / vallée du Rhône'],['Arrivée','Tain-l’Hermitage']],stops:[
+['Départ — Condrieu','Quitter Condrieu et reprendre la ViaRhôna vers le sud.'],
+['Vallée du Rhône','Suivre l’itinéraire cyclable vers le sud en direction de Saint-Clair-du-Rhône, Le Péage-de-Roussillon et Saint-Rambert-d’Albon.'],
+['Pause en cours de route','Prévoir une pause boulangerie-pâtisserie après environ 25 à 35 km selon l’heure de départ et les commerces ouverts.'],
+['Approche de Tain-l’Hermitage','Poursuivre le long du Rhône jusqu’au secteur de Tain-l’Hermitage et Tournon-sur-Rhône, au pied des coteaux viticoles.'],
+['Arrivée — Tain-l’Hermitage','Installation à l’hébergement et rangement sécuritaire des vélos.']
 ],links:[
-['GPX - Belleville-en-Beaujolais @ Givors','https://ridewithgps.com/routes/56281487'],
-['🥐 Pâtisseries — Neuville-sur-Saône','https://wego.here.com/search/patisserie%20boulangerie%20Neuville-sur-Saone'],
-['🍽️ Restaurants — Givors','https://wego.here.com/search/restaurants%20Givors'],
-['🛒 Épiceries — Givors','https://wego.here.com/search/epicerie%20supermarche%20Givors'],
-['🏡 Hébergements — Givors','https://wego.here.com/search/hebergement%20Givors']
-]},
-{n:18,date:'Vendredi 18 septembre 2026',title:'Givors → Tain-l’Hermitage',spirit:'Quitter l’agglomération lyonnaise, retrouver progressivement les paysages du Rhône et terminer la journée au pied des coteaux de l’Hermitage.',facts:[['Distance','78 km'],['Dénivelé positif','366 m'],['Parcours','RideWithGPS 56790082'],['Arrivée','Tain-l’Hermitage']],stops:[
-['Départ — Givors','Quitter Givors en suivant le parcours RideWithGPS prévu pour la journée.'],
-['Vallée du Rhône','Progression vers le sud avec plusieurs secteurs aménagés le long du Rhône. Rester attentifs aux raccordements urbains et aux traversées de voirie lorsque l’itinéraire quitte temporairement les voies cyclables.'],
-['Pause en cours de route','Prévoir une pause pâtisserie ou boulangerie après environ 1 h 30 à 2 h de vélo, selon l’heure de départ et les commerces ouverts sur le parcours.'],
-['Approche de Tain-l’Hermitage','L’arrivée se fait dans le secteur viticole de Tain-l’Hermitage, face à Tournon-sur-Rhône.'],
-['Arrivée — Tain-l’Hermitage','Installation à l’hébergement. Ce secteur est un excellent candidat pour deux nuits afin de consacrer une journée aux vignobles, au Domaine du Colombier et à la Cité du Chocolat Valrhona.']
-],links:[
-['GPX - Givors @ Tain-l’Hermitage','https://ridewithgps.com/routes/56790082'],
+['GPX - Condrieu @ Tain-l’Hermitage','jour-17-condrieu-tain-lhermitage.gpx'],
 ['🍽️ Restaurants — Tain-l’Hermitage','https://wego.here.com/search/restaurants%20Tain-l%27Hermitage'],
 ['🛒 Épiceries — Tain-l’Hermitage','https://wego.here.com/search/epicerie%20supermarche%20Tain-l%27Hermitage'],
 ['🏡 Hébergements — Tain-l’Hermitage','https://wego.here.com/search/hebergement%20Tain-l%27Hermitage']
+]},
+{n:18,date:'Vendredi 18 septembre 2026',title:'Journée gagnée — à réaffecter',spirit:'La portion Givors → Tain-l’Hermitage étant maintenant terminée le 17 septembre, cette journée devient disponible pour la suite du voyage.',pending:true,facts:[['Statut','Journée disponible'],['Position','Tain-l’Hermitage au matin'],['Décision','À confirmer']],stops:[
+['Nouvelle marge dans l’itinéraire','Le train Mâcon → Givors et le découpage Givors → Condrieu → Tain-l’Hermitage ont libéré cette journée. Elle pourra être réaffectée plus tard, par exemple à Avignon, Sète ou ailleurs selon votre décision finale.']
 ]},
 {n:19,date:'Samedi 19 septembre 2026',title:'Tain-l’Hermitage — vignobles et chocolat',spirit:'Profiter d’une journée sans bagages pour découvrir Tain, le coteau de l’Hermitage, rencontrer la famille Viale et terminer par Valrhona.',facts:[['Nuit','2e nuit à Tain-l’Hermitage'],['Rythme','Journée découverte'],['Vélo','Sans bagages'],['Trajet','À préparer']],stops:[
 ['1. Marché de Tain-l’Hermitage','Commencer la matinée au marché du samedi, place du Taurobole. Acheter de quoi préparer le souper puis revenir déposer les provisions à l’Airbnb avant de repartir.<br><strong>Horaire actuel :</strong> samedi de 7 h à 12 h.',[['📍 HERE WeGo','https://wego.here.com/search/Place%20du%20Taurobole%2026600%20Tain-l%27Hermitage'],['ℹ️ Marché — Ville de Tain','https://www.ville-tain.fr/fr/mon-quotidien/marche-et-commerces/marche-hebdomadaire/']]],
@@ -230,4 +219,4 @@ document.addEventListener('click',e=>{
 
 function loadNotes(){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');notes.innerHTML=a.map((n,i)=>`<div class="noteitem"><button data-del="${i}">Supprimer</button><b>${escapeHtml(n.t)}</b><p>${escapeHtml(n.x).replace(/\n/g,'<br>')}</p></div>`).join('')||'<p class="muted">Aucune note enregistrée.</p>'}
 function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=13.0',{updateViaCache:'none'}).then(r=>r.update());
+saveNote.onclick=()=>{if(!noteText.value.trim())return;const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.unshift({t:noteTitle.value.trim()||new Date().toLocaleDateString('fr-CA'),x:noteText.value.trim()});localStorage.setItem('france2026notes',JSON.stringify(a));noteTitle.value=noteText.value='';loadNotes()};notes.onclick=e=>{if(e.target.dataset.del!==undefined){const a=JSON.parse(localStorage.getItem('france2026notes')||'[]');a.splice(+e.target.dataset.del,1);localStorage.setItem('france2026notes',JSON.stringify(a));loadNotes()}};document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>location.hash=b.dataset.go);window.addEventListener('hashchange',route);renderDays();loadNotes();route();if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js?v=16.0',{updateViaCache:'none'}).then(r=>r.update());
